@@ -1,0 +1,33 @@
+{
+ "n": 50,
+ "patches": 8,
+ "patch_in_gold_file": 7,
+ "applied": 8,
+ "gold_resolved_of_scored": 8,
+ "resolved": 0,
+ "best_partial": "django__django-14672: 167/168 FAIL_TO_PASS tests pass, 0 PASS_TO_PASS broken",
+ "broke_existing_tests": 3,
+ "repro_status": {
+  "ALIGNED": 21,
+  "BROKEN": 19,
+  "PASSES_ON_BUGGY": 10
+ },
+ "edits_committed": 8,
+ "edits_rolled_back": 8,
+ "edit_nomatch": 46,
+ "llm_calls": 758,
+ "task_wall_s_median": 138.65966200828552,
+ "prompt_tok_s_median": 1876.579779218833,
+ "gen_tok_s_median": 39.38047693286792,
+ "cached_tokens_median": 4015.0,
+ "run_wall_s": 4394,
+ "gpu_mem_mib_max": [
+  3787,
+  3153
+ ],
+ "server_rss_mib_max": [
+  3906,
+  3847
+ ],
+ "scoring": "official SWE-bench harness v5.0.1, Docker Desktop on the laptop, gold + E4B per instance; 42 empty patches count as unresolved"
+}

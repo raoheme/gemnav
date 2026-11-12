@@ -1,0 +1,10 @@
+{
+ "codebert": {
+  "embedded": 145348,
+  "embed_seconds": 1004.8784570220014,
+  "cache_hits": 2936245,
+  "device": "cuda:0",
+  "backend": "torch",
+  "chunks_per_s": 144.64236842209235
+ }
+}

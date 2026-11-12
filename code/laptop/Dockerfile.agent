@@ -1,0 +1,14 @@
+# gemnav agent container for the laptop run. Linux userland (symlinks, git, POSIX shell) while llama-server stays
+# native on Windows (CPU or Vulkan iGPU). Drives task containers through the mounted Docker socket.
+FROM python:3.11-bookworm
+COPY --from=docker:27-cli /usr/local/bin/docker /usr/local/bin/docker
+# corporate TLS inspection: trust the Windows root CAs exported by run_laptop_e2e.ps1 (public certificates only)
+COPY windows_ca.pem /tmp/windows_ca.pem
+RUN cat /etc/ssl/certs/ca-certificates.crt /tmp/windows_ca.pem > /etc/ssl/certs/ca-all.pem
+ENV SSL_CERT_FILE=/etc/ssl/certs/ca-all.pem REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-all.pem PIP_CERT=/etc/ssl/certs/ca-all.pem \
+    GIT_SSL_CAINFO=/etc/ssl/certs/ca-all.pem CURL_CA_BUNDLE=/etc/ssl/certs/ca-all.pem HF_HOME=/cache/hf PYTHONUNBUFFERED=1
+RUN apt-get update && apt-get install -y --no-install-recommends ripgrep git && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir numpy pyarrow psutil tree-sitter==0.26.1 tree-sitter-python==0.25.0 onnxruntime==1.23.2 \
+    tokenizers huggingface_hub python-lsp-server==1.15.0 jedi
+RUN git config --global --add safe.directory '*' && git config --global user.email gemnav@local && git config --global user.name gemnav
+WORKDIR /work/code

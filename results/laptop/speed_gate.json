@@ -1,0 +1,15 @@
+﻿{
+    "cpu":  {
+                "prompt_n":  1590,
+                "prompt_tok_s":  58.60,
+                "gen_n":  51,
+                "gen_tok_s":  2.19,
+                "peak_ws_mib":  1487,
+                "threads":  6,
+                "turn_s":  117.1
+            },
+    "vulkan":  {
+                   "error":  "This command cannot be run due to the error: Access is denied."
+               },
+    "chosen":  "cpu"
+}

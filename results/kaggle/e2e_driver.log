@@ -1,0 +1,1011 @@
+05:49:54 assets ok 72 s
+05:49:56 list-devices Available devices:
+  CUDA0: Tesla T4 (14911 MiB, 14806 MiB free)
+  CUDA1: Tesla T4 (14911 MiB, 14806 MiB free)
+05:51:25 servers up {0: 86.09441828727722, 1: 3.004460334777832}
+05:51:59 speed gate {0: {'prompt_n': 300, 'prompt_tok_s': 10.252102270461325, 'gen_tok_s': 49.15304518339306}, 1: {'prompt_n': 300, 'prompt_tok_s': 1008.1932504822524, 'gen_tok_s': 52.15586017244666}}
+05:54:28 astropy__astropy-14182 repro {'status': 'ALIGNED', 's': 16.1, 'kind': 'repro', 't': 17.21}
+05:54:30 django__django-10999 repro {'status': 'ALIGNED', 's': 16.6, 'kind': 'repro', 't': 16.65}
+05:54:36 django__django-10999 creg {'files': ['tests/utils_tests/test_duration.py', 'tests/utils_tests/test_dateparse.py'], 'n_tests': 29, 'n_pass': 29, 's': 4.9, 'kind': 'creg', 't': 21.67}
+05:54:40 django__django-10999 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 4.9, 'kind': 'checks', 't': 26.61}
+05:54:43 django__django-10999 tool {'name': 'search_code', 'model_s': 2.59, 'tool_s': 0.07, 'obs_chars': 87, 'kind': 'tool', 't': 29.27}
+05:54:44 astropy__astropy-14182 creg {'files': ['astropy/io/ascii/tests/test_rst.py', 'astropy/io/ascii/tests/test_ecsv.py'], 'n_tests': 0, 'n_pass': 0, 's': 16.0, 'kind': 'creg', 't': 33.19}
+05:54:45 django__django-10999 tool {'name': 'search_code', 'model_s': 2.27, 'tool_s': 0.01, 'obs_chars': 99, 'kind': 'tool', 't': 31.54}
+05:54:47 django__django-10999 tool {'name': 'read_file', 'model_s': 1.19, 'tool_s': 0.0, 'obs_chars': 2114, 'kind': 'tool', 't': 32.74}
+05:54:52 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 149 (char 148)', 'truncated': False, 'kind': 'protocol_error', 't': 38.47}
+05:54:56 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 134 (char 133)', 'truncated': False, 'kind': 'protocol_error', 't': 42.49}
+05:54:59 astropy__astropy-14182 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 15.7, 'kind': 'checks', 't': 48.87}
+05:55:02 astropy__astropy-14182 tool {'name': 'semantic_search', 'model_s': 2.56, 'tool_s': 0.09, 'obs_chars': 2260, 'kind': 'tool', 't': 51.53}
+05:55:04 astropy__astropy-14182 tool {'name': 'read_file', 'model_s': 1.61, 'tool_s': 0.0, 'obs_chars': 1629, 'kind': 'tool', 't': 53.14}
+05:55:04 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 130 (char 129)', 'truncated': False, 'kind': 'protocol_error', 't': 50.32}
+05:55:05 astropy__astropy-14182 tool {'name': 'search_code', 'model_s': 1.31, 'tool_s': 0.03, 'obs_chars': 890, 'kind': 'tool', 't': 54.47}
+05:55:07 astropy__astropy-14182 tool {'name': 'read_file', 'model_s': 1.67, 'tool_s': 0.0, 'obs_chars': 3350, 'kind': 'tool', 't': 56.14}
+05:55:07 DONE django__django-10999 patch_lines 0 err  wall 153
+05:55:08 astropy__astropy-14182 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 57.84}
+05:55:10 astropy__astropy-14182 tool {'name': 'read_file', 'model_s': 1.84, 'tool_s': 0.0, 'obs_chars': 293, 'kind': 'tool', 't': 59.69}
+05:55:12 astropy__astropy-14182 tool {'name': 'read_file', 'model_s': 1.3, 'tool_s': 0.0, 'obs_chars': 2543, 'kind': 'tool', 't': 60.99}
+05:55:13 astropy__astropy-14182 tool {'name': 'read_file', 'model_s': 1.71, 'tool_s': 0.0, 'obs_chars': 1940, 'kind': 'tool', 't': 62.69}
+05:55:15 astropy__astropy-14182 tool {'name': 'search_code', 'model_s': 1.91, 'tool_s': 0.0, 'obs_chars': 285, 'kind': 'tool', 't': 64.61}
+05:55:17 astropy__astropy-14182 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 66.27}
+05:55:28 astropy__astropy-14182 edit_nomatch {'path': 'astropy/io/ascii/rst.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 77.6}
+05:55:28 astropy__astropy-14182 tool {'name': 'replace_in_file', 'model_s': 11.33, 'tool_s': 0.0, 'obs_chars': 535, 'kind': 'tool', 't': 77.61}
+05:55:30 astropy__astropy-14182 tool {'name': 'read_file', 'model_s': 1.53, 'tool_s': 0.0, 'obs_chars': 898, 'kind': 'tool', 't': 79.13}
+05:55:56 astropy__astropy-14182 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 17.5, 'kind': 'checks', 't': 105.39}
+05:55:58 astropy__astropy-14182 edit_commit {'path': 'astropy/io/ascii/rst.py', 'score': [1, 0, 1], 'kind': 'edit_commit', 't': 107.6}
+05:55:58 astropy__astropy-14182 tool {'name': 'replace_in_file', 'model_s': 7.62, 'tool_s': 20.85, 'obs_chars': 159, 'kind': 'tool', 't': 107.6}
+05:56:00 astropy__astropy-14182 tool {'name': 'read_file', 'model_s': 1.73, 'tool_s': 0.0, 'obs_chars': 3763, 'kind': 'tool', 't': 109.33}
+05:56:02 astropy__astropy-14182 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 111.04}
+05:56:09 DONE astropy__astropy-14182 patch_lines 32 err  wall 215
+05:56:29 django__django-11099 repro {'status': 'ALIGNED', 's': 18.6, 'kind': 'repro', 't': 18.69}
+05:56:35 django__django-11099 creg {'files': ['tests/auth_tests/test_validators.py', 'tests/validation/test_validators.py'], 'n_tests': 25, 'n_pass': 25, 's': 6.3, 'kind': 'creg', 't': 25.03}
+05:56:41 django__django-11099 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 5.4, 'kind': 'checks', 't': 30.38}
+05:56:43 django__django-11099 tool {'name': 'search_code', 'model_s': 2.53, 'tool_s': 0.1, 'obs_chars': 92, 'kind': 'tool', 't': 33.01}
+05:56:44 django__django-11099 tool {'name': 'read_file', 'model_s': 1.08, 'tool_s': 0.0, 'obs_chars': 822, 'kind': 'tool', 't': 34.09}
+05:56:46 django__django-11099 edit_nomatch {'path': 'django/contrib/auth/validators.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 35.87}
+05:56:46 django__django-11099 tool {'name': 'replace_in_file', 'model_s': 1.78, 'tool_s': 0.0, 'obs_chars': 618, 'kind': 'tool', 't': 35.87}
+05:56:49 django__django-11099 edit_nomatch {'path': 'django/contrib/auth/validators.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 38.14}
+05:56:49 django__django-11099 tool {'name': 'replace_in_file', 'model_s': 2.28, 'tool_s': 0.0, 'obs_chars': 618, 'kind': 'tool', 't': 38.15}
+05:57:27 django__django-11099 edit_nomatch {'path': 'django/contrib/auth/validators.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 76.47}
+05:57:27 django__django-11099 tool {'name': 'replace_in_file', 'model_s': 38.33, 'tool_s': 0.0, 'obs_chars': 618, 'kind': 'tool', 't': 76.47}
+05:57:31 django__django-11099 edit_nomatch {'path': 'django/contrib/auth/validators.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 80.65}
+05:57:31 django__django-11099 tool {'name': 'replace_in_file', 'model_s': 4.17, 'tool_s': 0.0, 'obs_chars': 618, 'kind': 'tool', 't': 80.65}
+05:57:33 django__django-11099 edit_nomatch {'path': 'django/contrib/auth/validators.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 82.5}
+05:57:33 django__django-11099 tool {'name': 'replace_in_file', 'model_s': 1.85, 'tool_s': 0.0, 'obs_chars': 618, 'kind': 'tool', 't': 82.5}
+05:57:35 django__django-11099 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 84.5}
+05:57:37 django__django-11099 edit_nomatch {'path': 'django/contrib/auth/validators.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 86.26}
+05:57:37 django__django-11099 tool {'name': 'replace_in_file', 'model_s': 1.76, 'tool_s': 0.0, 'obs_chars': 618, 'kind': 'tool', 't': 86.27}
+05:57:38 django__django-11099 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 87.94}
+05:57:40 django__django-11099 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 89.73}
+05:57:41 django__django-11099 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 90.81}
+05:57:42 django__django-11099 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 91.88}
+05:57:43 django__django-11099 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 92.98}
+05:57:44 django__django-11119 repro {'status': 'BROKEN', 's': 23.9, 'kind': 'repro', 't': 23.9}
+05:57:47 DONE django__django-11099 patch_lines 0 err  wall 160
+05:57:50 django__django-11119 creg {'files': ['tests/migrations/test_base.py', 'tests/backends/base/test_base.py'], 'n_tests': 9, 'n_pass': 9, 's': 5.0, 'kind': 'creg', 't': 29.1}
+05:57:54 django__django-11119 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.1, 'kind': 'checks', 't': 33.19}
+05:57:56 django__django-11119 tool {'name': 'semantic_search', 'model_s': 2.34, 'tool_s': 0.02, 'obs_chars': 1652, 'kind': 'tool', 't': 35.54}
+05:57:57 django__django-11119 tool {'name': 'search_code', 'model_s': 1.27, 'tool_s': 0.1, 'obs_chars': 69, 'kind': 'tool', 't': 36.91}
+05:57:58 django__django-11119 tool {'name': 'read_file', 'model_s': 1.1, 'tool_s': 0.0, 'obs_chars': 2347, 'kind': 'tool', 't': 38.01}
+05:58:00 django__django-11119 tool {'name': 'get_definition', 'model_s': 1.13, 'tool_s': 0.0, 'obs_chars': 639, 'kind': 'tool', 't': 39.15}
+05:58:01 django__django-11119 tool {'name': 'read_file', 'model_s': 1.55, 'tool_s': 0.0, 'obs_chars': 7686, 'kind': 'tool', 't': 40.7}
+05:58:03 django__django-11119 tool {'name': 'read_file', 'model_s': 1.65, 'tool_s': 0.0, 'obs_chars': 3726, 'kind': 'tool', 't': 42.34}
+05:58:06 django__django-11119 edit_nomatch {'path': 'django/template/backends/django.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 45.21}
+05:58:06 django__django-11119 tool {'name': 'replace_in_file', 'model_s': 2.86, 'tool_s': 0.01, 'obs_chars': 607, 'kind': 'tool', 't': 45.22}
+05:58:08 django__django-11119 edit_nomatch {'path': 'django/template/backends/django.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 47.79}
+05:58:08 django__django-11119 tool {'name': 'replace_in_file', 'model_s': 2.57, 'tool_s': 0.02, 'obs_chars': 607, 'kind': 'tool', 't': 47.81}
+05:58:10 django__django-11119 tool {'name': 'read_file', 'model_s': 1.44, 'tool_s': 0.0, 'obs_chars': 360, 'kind': 'tool', 't': 49.25}
+05:58:12 django__django-11119 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 51.38}
+05:58:14 django__django-11119 edit_nomatch {'path': 'django/template/backends/django.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 53.4}
+05:58:14 django__django-11119 tool {'name': 'replace_in_file', 'model_s': 2.02, 'tool_s': 0.01, 'obs_chars': 607, 'kind': 'tool', 't': 53.41}
+05:58:16 django__django-11119 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 55.52}
+05:58:18 django__django-11119 edit_nomatch {'path': 'django/template/backends/django.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 57.75}
+05:58:18 django__django-11119 tool {'name': 'replace_in_file', 'model_s': 2.23, 'tool_s': 0.01, 'obs_chars': 607, 'kind': 'tool', 't': 57.76}
+05:58:20 django__django-11119 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 59.86}
+05:58:22 django__django-11119 tool {'name': 'read_file', 'model_s': 1.28, 'tool_s': 0.0, 'obs_chars': 162, 'kind': 'tool', 't': 61.14}
+05:58:25 DONE django__django-11119 patch_lines 0 err  wall 136
+05:59:12 django__django-11163 repro {'status': 'ALIGNED', 's': 20.5, 'kind': 'repro', 't': 20.54}
+05:59:16 django__django-11163 creg {'files': ['tests/migrations/test_base.py', 'tests/migrations/test_state.py'], 'n_tests': 60, 'n_pass': 60, 's': 4.5, 'kind': 'creg', 't': 25.07}
+05:59:23 django__django-11163 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 6.8, 'kind': 'checks', 't': 31.92}
+05:59:25 django__django-11163 tool {'name': 'search_code', 'model_s': 2.42, 'tool_s': 0.01, 'obs_chars': 99, 'kind': 'tool', 't': 34.36}
+05:59:27 django__django-11163 tool {'name': 'read_file', 'model_s': 1.06, 'tool_s': 0.0, 'obs_chars': 969, 'kind': 'tool', 't': 35.41}
+05:59:28 django__django-11163 edit_nomatch {'path': 'django/forms/models.py', 'found': 2, 'how': 'matched 2 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 37.12}
+05:59:28 django__django-11163 tool {'name': 'replace_in_file', 'model_s': 1.7, 'tool_s': 0.09, 'obs_chars': 627, 'kind': 'tool', 't': 37.2}
+05:59:34 django__django-11163 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 4.9, 'kind': 'checks', 't': 42.76}
+05:59:34 django__django-11163 tool {'name': 'run_tests', 'model_s': 0.7, 'tool_s': 4.85, 'obs_chars': 383, 'kind': 'tool', 't': 42.76}
+05:59:36 django__django-11163 edit_nomatch {'path': 'django/forms/models.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 44.74}
+05:59:36 django__django-11163 tool {'name': 'replace_in_file', 'model_s': 1.98, 'tool_s': 0.13, 'obs_chars': 627, 'kind': 'tool', 't': 44.87}
+05:59:36 django__django-11206 repro {'status': 'PASSES_ON_BUGGY', 's': 10.5, 'kind': 'repro', 't': 10.5}
+05:59:38 django__django-11163 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 46.67}
+05:59:39 django__django-11206 creg {'files': ['tests/utils_tests/test_numberformat.py'], 'n_tests': 6, 'n_pass': 6, 's': 2.4, 'kind': 'creg', 't': 12.97}
+05:59:40 django__django-11163 edit_nomatch {'path': 'django/forms/models.py', 'found': 2, 'how': 'matched 2 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 48.49}
+05:59:40 django__django-11163 tool {'name': 'replace_in_file', 'model_s': 1.81, 'tool_s': 0.09, 'obs_chars': 627, 'kind': 'tool', 't': 48.57}
+05:59:40 django__django-11206 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 1.8, 'kind': 'checks', 't': 14.78}
+05:59:41 django__django-11163 edit_nomatch {'path': 'django/forms/models.py', 'found': 2, 'how': 'matched 2 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 50.34}
+05:59:42 django__django-11163 tool {'name': 'replace_in_file', 'model_s': 1.76, 'tool_s': 0.08, 'obs_chars': 627, 'kind': 'tool', 't': 50.42}
+05:59:43 django__django-11206 tool {'name': 'semantic_search', 'model_s': 2.36, 'tool_s': 0.01, 'obs_chars': 2808, 'kind': 'tool', 't': 17.15}
+05:59:43 django__django-11163 edit_nomatch {'path': 'django/forms/models.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 52.4}
+05:59:44 django__django-11163 tool {'name': 'replace_in_file', 'model_s': 1.97, 'tool_s': 0.08, 'obs_chars': 627, 'kind': 'tool', 't': 52.48}
+05:59:44 django__django-11206 tool {'name': 'read_file', 'model_s': 1.6, 'tool_s': 0.0, 'obs_chars': 3490, 'kind': 'tool', 't': 18.75}
+05:59:45 django__django-11163 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 54.35}
+05:59:46 django__django-11206 tool {'name': 'search_code', 'model_s': 1.64, 'tool_s': 0.08, 'obs_chars': 78, 'kind': 'tool', 't': 20.47}
+05:59:48 django__django-11206 tool {'name': 'read_file', 'model_s': 1.68, 'tool_s': 0.0, 'obs_chars': 537, 'kind': 'tool', 't': 22.15}
+05:59:49 django__django-11206 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 23.37}
+05:59:50 django__django-11206 tool {'name': 'search_code', 'model_s': 1.2, 'tool_s': 0.0, 'obs_chars': 51, 'kind': 'tool', 't': 24.57}
+05:59:51 django__django-11163 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 5.0, 'kind': 'checks', 't': 59.93}
+05:59:51 django__django-11163 tool {'name': 'run_tests', 'model_s': 0.59, 'tool_s': 4.99, 'obs_chars': 383, 'kind': 'tool', 't': 59.93}
+05:59:51 django__django-11206 tool {'name': 'read_file', 'model_s': 1.14, 'tool_s': 0.0, 'obs_chars': 1026, 'kind': 'tool', 't': 25.71}
+05:59:52 django__django-11163 tool {'name': 'semantic_search', 'model_s': 1.05, 'tool_s': 0.02, 'obs_chars': 2762, 'kind': 'tool', 't': 61.01}
+05:59:53 django__django-11206 tool {'name': 'search_code', 'model_s': 1.29, 'tool_s': 0.08, 'obs_chars': 76, 'kind': 'tool', 't': 27.08}
+05:59:54 django__django-11163 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 63.16}
+05:59:55 django__django-11206 edit_nomatch {'path': 'django/utils/numberformat.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 29.4}
+05:59:55 django__django-11206 tool {'name': 'replace_in_file', 'model_s': 2.32, 'tool_s': 0.01, 'obs_chars': 837, 'kind': 'tool', 't': 29.41}
+05:59:58 django__django-11206 edit_nomatch {'path': 'django/utils/numberformat.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 31.86}
+05:59:58 django__django-11206 tool {'name': 'replace_in_file', 'model_s': 2.45, 'tool_s': 0.01, 'obs_chars': 837, 'kind': 'tool', 't': 31.87}
+05:59:59 django__django-11206 tool {'name': 'read_file', 'model_s': 1.46, 'tool_s': 0.0, 'obs_chars': 191, 'kind': 'tool', 't': 33.34}
+06:00:00 django__django-11163 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 5.0, 'kind': 'checks', 't': 69.01}
+06:00:00 django__django-11163 tool {'name': 'run_tests', 'model_s': 0.86, 'tool_s': 4.98, 'obs_chars': 383, 'kind': 'tool', 't': 69.01}
+06:00:01 django__django-11163 tool {'name': 'semantic_search', 'model_s': 1.23, 'tool_s': 0.02, 'obs_chars': 867, 'kind': 'tool', 't': 70.26}
+06:00:01 django__django-11206 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 35.73}
+06:00:03 django__django-11206 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 36.99}
+06:00:04 django__django-11206 tool {'name': 'semantic_search', 'model_s': 0.95, 'tool_s': 0.02, 'obs_chars': 3964, 'kind': 'tool', 't': 37.96}
+06:00:04 DONE django__django-11163 patch_lines 0 err  wall 138
+06:00:05 django__django-11206 tool {'name': 'read_file', 'model_s': 1.74, 'tool_s': 0.0, 'obs_chars': 1175, 'kind': 'tool', 't': 39.7}
+06:00:08 DONE django__django-11206 patch_lines 0 err  wall 104
+06:01:49 django__django-12308 repro {'status': 'ALIGNED', 's': 17.2, 'kind': 'repro', 't': 17.28}
+06:01:54 django__django-12308 creg {'files': ['tests/gis_tests/test_fields.py', 'tests/serializers/test_json.py'], 'n_tests': 34, 'n_pass': 34, 's': 4.9, 'kind': 'creg', 't': 22.31}
+06:01:58 django__django-11964 repro {'status': 'ALIGNED', 's': 28.3, 'kind': 'repro', 't': 28.34}
+06:02:00 django__django-12308 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 6.4, 'kind': 'checks', 't': 28.71}
+06:02:02 django__django-12308 tool {'name': 'semantic_search', 'model_s': 2.31, 'tool_s': 0.02, 'obs_chars': 991, 'kind': 'tool', 't': 31.03}
+06:02:04 django__django-12308 tool {'name': 'semantic_search', 'model_s': 1.3, 'tool_s': 0.02, 'obs_chars': 991, 'kind': 'tool', 't': 32.35}
+06:02:04 django__django-11964 creg {'files': ['tests/auth_tests/test_models.py', 'tests/flatpages_tests/test_models.py'], 'n_tests': 52, 'n_pass': 52, 's': 5.7, 'kind': 'creg', 't': 34.17}
+06:02:05 django__django-12308 tool {'name': 'semantic_search', 'model_s': 1.2, 'tool_s': 0.03, 'obs_chars': 1502, 'kind': 'tool', 't': 33.59}
+06:02:07 django__django-12308 tool {'name': 'semantic_search', 'model_s': 1.53, 'tool_s': 0.02, 'obs_chars': 366, 'kind': 'tool', 't': 35.13}
+06:02:08 django__django-12308 tool {'name': 'read_file', 'model_s': 1.47, 'tool_s': 0.0, 'obs_chars': 3821, 'kind': 'tool', 't': 36.61}
+06:02:10 django__django-12308 tool {'name': 'semantic_search', 'model_s': 1.59, 'tool_s': 0.04, 'obs_chars': 923, 'kind': 'tool', 't': 38.23}
+06:02:11 django__django-11964 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 6.5, 'kind': 'checks', 't': 40.65}
+06:02:11 django__django-12308 tool {'name': 'semantic_search', 'model_s': 1.73, 'tool_s': 0.02, 'obs_chars': 366, 'kind': 'tool', 't': 39.99}
+06:02:13 django__django-12308 tool {'name': 'read_file', 'model_s': 1.39, 'tool_s': 0.0, 'obs_chars': 8118, 'kind': 'tool', 't': 41.38}
+06:02:13 django__django-11964 tool {'name': 'search_code', 'model_s': 2.67, 'tool_s': 0.09, 'obs_chars': 83, 'kind': 'tool', 't': 43.41}
+06:02:14 django__django-12308 tool {'name': 'read_file', 'model_s': 1.68, 'tool_s': 0.0, 'obs_chars': 3719, 'kind': 'tool', 't': 43.06}
+06:02:15 django__django-11964 tool {'name': 'search_code', 'model_s': 1.21, 'tool_s': 0.07, 'obs_chars': 54, 'kind': 'tool', 't': 44.69}
+06:02:16 django__django-11964 tool {'name': 'search_code', 'model_s': 1.05, 'tool_s': 0.08, 'obs_chars': 72, 'kind': 'tool', 't': 45.82}
+06:02:17 django__django-12308 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 45.33}
+06:02:17 django__django-11964 tool {'name': 'semantic_search', 'model_s': 1.07, 'tool_s': 0.02, 'obs_chars': 2033, 'kind': 'tool', 't': 46.91}
+06:02:18 django__django-11964 tool {'name': 'read_file', 'model_s': 1.55, 'tool_s': 0.0, 'obs_chars': 3876, 'kind': 'tool', 't': 48.47}
+06:02:18 django__django-12308 tool {'name': 'semantic_search', 'model_s': 1.62, 'tool_s': 0.03, 'obs_chars': 923, 'kind': 'tool', 't': 46.98}
+06:02:19 django__django-12308 tool {'name': 'semantic_search', 'model_s': 1.09, 'tool_s': 0.01, 'obs_chars': 366, 'kind': 'tool', 't': 48.08}
+06:02:20 django__django-11964 tool {'name': 'search_code', 'model_s': 1.93, 'tool_s': 0.07, 'obs_chars': 49, 'kind': 'tool', 't': 50.47}
+06:02:21 django__django-12308 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 49.46}
+06:02:22 django__django-12308 tool {'name': 'semantic_search', 'model_s': 1.05, 'tool_s': 0.02, 'obs_chars': 923, 'kind': 'tool', 't': 50.53}
+06:02:22 django__django-11964 tool {'name': 'read_file', 'model_s': 1.61, 'tool_s': 0.0, 'obs_chars': 2799, 'kind': 'tool', 't': 52.08}
+06:02:23 django__django-12308 tool {'name': 'semantic_search', 'model_s': 1.08, 'tool_s': 0.01, 'obs_chars': 938, 'kind': 'tool', 't': 51.62}
+06:02:26 DONE django__django-12308 patch_lines 0 err  wall 137
+06:02:27 django__django-11964 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 56.7}
+06:02:32 django__django-11964 tool {'name': 'read_file', 'model_s': 5.28, 'tool_s': 0.0, 'obs_chars': 1028, 'kind': 'tool', 't': 61.98}
+06:02:33 django__django-11964 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 63.26}
+06:02:34 django__django-11964 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 64.58}
+06:02:35 django__django-11964 tool {'name': 'semantic_search', 'model_s': 0.9, 'tool_s': 0.01, 'obs_chars': 1879, 'kind': 'tool', 't': 65.49}
+06:02:37 django__django-11964 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 66.91}
+06:02:38 django__django-11964 tool {'name': 'read_file', 'model_s': 1.44, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 68.35}
+06:02:39 django__django-11964 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 69.47}
+06:02:42 DONE django__django-11964 patch_lines 0 err  wall 158
+06:04:02 django__django-12858 repro {'status': 'BROKEN', 's': 31.0, 'kind': 'repro', 't': 31.07}
+06:04:07 django__django-12858 creg {'files': ['tests/migrations/test_base.py', 'tests/backends/base/test_base.py'], 'n_tests': 9, 'n_pass': 9, 's': 4.8, 'kind': 'creg', 't': 35.95}
+06:04:11 django__django-12858 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.1, 'kind': 'checks', 't': 40.04}
+06:04:12 django__django-13012 repro {'status': 'ALIGNED', 's': 20.7, 'kind': 'repro', 't': 20.76}
+06:04:14 django__django-12858 tool {'name': 'semantic_search', 'model_s': 2.54, 'tool_s': 0.01, 'obs_chars': 1708, 'kind': 'tool', 't': 42.6}
+06:04:17 django__django-13012 creg {'files': ['tests/queries/test_query.py', 'tests/gis_tests/geoapp/test_expressions.py'], 'n_tests': 14, 'n_pass': 14, 's': 4.2, 'kind': 'creg', 't': 25.05}
+06:04:18 django__django-12858 tool {'name': 'search_code', 'model_s': 4.22, 'tool_s': 0.08, 'obs_chars': 76, 'kind': 'tool', 't': 46.91}
+06:04:19 django__django-12858 tool {'name': 'read_file', 'model_s': 1.29, 'tool_s': 0.0, 'obs_chars': 4255, 'kind': 'tool', 't': 48.2}
+06:04:21 django__django-12858 tool {'name': 'semantic_search', 'model_s': 1.5, 'tool_s': 0.02, 'obs_chars': 2488, 'kind': 'tool', 't': 49.71}
+06:04:22 django__django-13012 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 5.3, 'kind': 'checks', 't': 30.3}
+06:04:23 django__django-12858 tool {'name': 'search_code', 'model_s': 2.12, 'tool_s': 0.08, 'obs_chars': 76, 'kind': 'tool', 't': 51.92}
+06:04:24 django__django-13012 tool {'name': 'semantic_search', 'model_s': 2.22, 'tool_s': 0.02, 'obs_chars': 2175, 'kind': 'tool', 't': 32.54}
+06:04:24 django__django-12858 tool {'name': 'read_file', 'model_s': 1.52, 'tool_s': 0.0, 'obs_chars': 4072, 'kind': 'tool', 't': 53.44}
+06:04:25 django__django-13012 tool {'name': 'search_code', 'model_s': 1.22, 'tool_s': 0.0, 'obs_chars': 41, 'kind': 'tool', 't': 33.77}
+06:04:26 django__django-12858 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 55.08}
+06:04:26 django__django-13012 tool {'name': 'read_file', 'model_s': 1.18, 'tool_s': 0.0, 'obs_chars': 91, 'kind': 'tool', 't': 34.94}
+06:04:28 django__django-13012 tool {'name': 'read_file', 'model_s': 1.15, 'tool_s': 0.0, 'obs_chars': 3239, 'kind': 'tool', 't': 36.1}
+06:04:28 django__django-12858 tool {'name': 'read_file', 'model_s': 1.78, 'tool_s': 0.0, 'obs_chars': 7679, 'kind': 'tool', 't': 56.86}
+06:04:29 django__django-13012 tool {'name': 'semantic_search', 'model_s': 1.19, 'tool_s': 0.02, 'obs_chars': 1966, 'kind': 'tool', 't': 37.31}
+06:04:30 django__django-12858 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 58.62}
+06:04:31 django__django-13012 tool {'name': 'search_code', 'model_s': 1.73, 'tool_s': 0.0, 'obs_chars': 203, 'kind': 'tool', 't': 39.05}
+06:04:31 django__django-12858 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 60.34}
+06:04:32 django__django-13012 tool {'name': 'read_file', 'model_s': 1.45, 'tool_s': 0.0, 'obs_chars': 4437, 'kind': 'tool', 't': 40.5}
+06:04:32 django__django-12858 tool {'name': 'search_code', 'model_s': 1.09, 'tool_s': 0.0, 'obs_chars': 76, 'kind': 'tool', 't': 61.43}
+06:04:33 django__django-13012 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 41.88}
+06:04:34 django__django-12858 tool {'name': 'search_code', 'model_s': 1.13, 'tool_s': 0.08, 'obs_chars': 103, 'kind': 'tool', 't': 62.65}
+06:04:35 django__django-12858 tool {'name': 'read_file', 'model_s': 1.34, 'tool_s': 0.0, 'obs_chars': 2509, 'kind': 'tool', 't': 63.99}
+06:04:37 django__django-12858 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 65.64}
+06:04:37 django__django-13012 tool {'name': 'read_file', 'model_s': 4.14, 'tool_s': 0.0, 'obs_chars': 846, 'kind': 'tool', 't': 46.02}
+06:04:38 django__django-12858 tool {'name': 'read_file', 'model_s': 1.67, 'tool_s': 0.0, 'obs_chars': 8659, 'kind': 'tool', 't': 67.32}
+06:04:39 django__django-13012 tool {'name': 'semantic_search', 'model_s': 1.12, 'tool_s': 0.01, 'obs_chars': 289, 'kind': 'tool', 't': 47.16}
+06:04:41 DONE django__django-12858 patch_lines 0 err  wall 135
+06:04:43 django__django-13012 edit_nomatch {'path': 'django/db/models/expressions.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 51.66}
+06:04:43 django__django-13012 tool {'name': 'replace_in_file', 'model_s': 4.5, 'tool_s': 0.12, 'obs_chars': 593, 'kind': 'tool', 't': 51.77}
+06:04:47 django__django-13012 edit_nomatch {'path': 'django/db/models/expressions.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 55.09}
+06:04:47 django__django-13012 tool {'name': 'replace_in_file', 'model_s': 3.31, 'tool_s': 0.11, 'obs_chars': 593, 'kind': 'tool', 't': 55.2}
+06:04:49 django__django-13012 edit_nomatch {'path': 'django/db/models/expressions.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 57.75}
+06:04:49 django__django-13012 tool {'name': 'replace_in_file', 'model_s': 2.55, 'tool_s': 0.12, 'obs_chars': 593, 'kind': 'tool', 't': 57.87}
+06:04:51 django__django-13012 tool {'name': 'read_file', 'model_s': 1.47, 'tool_s': 0.0, 'obs_chars': 338, 'kind': 'tool', 't': 59.34}
+06:04:56 django__django-13012 edit_nomatch {'path': 'django/db/models/expressions.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 64.32}
+06:04:56 django__django-13012 tool {'name': 'replace_in_file', 'model_s': 4.98, 'tool_s': 0.1, 'obs_chars': 593, 'kind': 'tool', 't': 64.41}
+06:04:59 DONE django__django-13012 patch_lines 0 err  wall 137
+06:05:59 django__django-13023 repro {'status': 'BROKEN', 's': 13.3, 'kind': 'repro', 't': 13.4}
+06:06:06 django__django-13023 creg {'files': ['tests/migrations/test_base.py', 'tests/auth_tests/test_forms.py'], 'n_tests': 83, 'n_pass': 83, 's': 5.2, 'kind': 'creg', 't': 20.13}
+06:06:10 django__django-13023 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.4, 'kind': 'checks', 't': 24.53}
+06:06:13 django__django-13023 tool {'name': 'search_code', 'model_s': 2.43, 'tool_s': 0.09, 'obs_chars': 79, 'kind': 'tool', 't': 27.06}
+06:06:14 django__django-13023 tool {'name': 'search_code', 'model_s': 1.01, 'tool_s': 0.08, 'obs_chars': 66, 'kind': 'tool', 't': 28.15}
+06:06:15 django__django-13023 tool {'name': 'semantic_search', 'model_s': 0.97, 'tool_s': 0.02, 'obs_chars': 2136, 'kind': 'tool', 't': 29.14}
+06:06:17 django__django-13023 tool {'name': 'read_file', 'model_s': 1.71, 'tool_s': 0.0, 'obs_chars': 7761, 'kind': 'tool', 't': 30.85}
+06:06:19 django__django-13023 tool {'name': 'search_code', 'model_s': 1.95, 'tool_s': 0.08, 'obs_chars': 78, 'kind': 'tool', 't': 32.89}
+06:06:21 django__django-13023 tool {'name': 'read_file', 'model_s': 1.84, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 34.73}
+06:06:22 django__django-13023 tool {'name': 'read_file', 'model_s': 1.31, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 36.04}
+06:06:23 django__django-13023 tool {'name': 'semantic_search', 'model_s': 0.94, 'tool_s': 0.01, 'obs_chars': 2250, 'kind': 'tool', 't': 37.0}
+06:06:25 django__django-13023 tool {'name': 'read_file', 'model_s': 1.73, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 38.73}
+06:06:26 django__django-13023 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 40.34}
+06:06:27 django__django-13297 repro {'status': 'BROKEN', 's': 21.9, 'kind': 'repro', 't': 21.97}
+06:06:28 django__django-13023 tool {'name': 'read_file', 'model_s': 1.36, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 41.71}
+06:06:29 django__django-13023 tool {'name': 'read_file', 'model_s': 1.4, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 43.11}
+06:06:30 django__django-13023 tool {'name': 'semantic_search', 'model_s': 1.0, 'tool_s': 0.02, 'obs_chars': 946, 'kind': 'tool', 't': 44.13}
+06:06:32 django__django-13023 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 45.72}
+06:06:32 django__django-13297 creg {'files': ['tests/migrations/test_base.py', 'tests/backends/base/test_base.py'], 'n_tests': 9, 'n_pass': 9, 's': 5.0, 'kind': 'creg', 't': 27.01}
+06:06:33 django__django-13023 tool {'name': 'read_file', 'model_s': 1.52, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 47.24}
+06:06:36 DONE django__django-13023 patch_lines 0 err  wall 115
+06:06:37 django__django-13297 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.2, 'kind': 'checks', 't': 31.19}
+06:06:39 django__django-13297 tool {'name': 'semantic_search', 'model_s': 2.57, 'tool_s': 0.02, 'obs_chars': 1670, 'kind': 'tool', 't': 33.78}
+06:06:41 django__django-13297 tool {'name': 'search_code', 'model_s': 1.25, 'tool_s': 0.0, 'obs_chars': 212, 'kind': 'tool', 't': 35.04}
+06:06:42 django__django-13297 tool {'name': 'read_file', 'model_s': 1.24, 'tool_s': 0.0, 'obs_chars': 4124, 'kind': 'tool', 't': 36.28}
+06:06:43 django__django-13297 tool {'name': 'semantic_search', 'model_s': 1.44, 'tool_s': 0.01, 'obs_chars': 1020, 'kind': 'tool', 't': 37.73}
+06:06:45 django__django-13297 tool {'name': 'read_file', 'model_s': 1.85, 'tool_s': 0.0, 'obs_chars': 1257, 'kind': 'tool', 't': 39.58}
+06:06:47 django__django-13297 tool {'name': 'search_code', 'model_s': 1.72, 'tool_s': 0.09, 'obs_chars': 99, 'kind': 'tool', 't': 41.4}
+06:06:48 django__django-13297 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 42.84}
+06:06:50 django__django-13297 tool {'name': 'search_code', 'model_s': 1.16, 'tool_s': 0.08, 'obs_chars': 1208, 'kind': 'tool', 't': 44.08}
+06:06:51 django__django-13297 tool {'name': 'search_code', 'model_s': 1.22, 'tool_s': 0.0, 'obs_chars': 86, 'kind': 'tool', 't': 45.3}
+06:06:52 django__django-13297 tool {'name': 'search_code', 'model_s': 1.42, 'tool_s': 0.08, 'obs_chars': 79, 'kind': 'tool', 't': 46.8}
+06:06:54 django__django-13297 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 48.06}
+06:06:55 django__django-13297 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 49.25}
+06:06:56 django__django-13297 tool {'name': 'search_code', 'model_s': 1.05, 'tool_s': 0.0, 'obs_chars': 208, 'kind': 'tool', 't': 50.31}
+06:06:57 django__django-13297 tool {'name': 'search_code', 'model_s': 1.21, 'tool_s': 0.08, 'obs_chars': 1208, 'kind': 'tool', 't': 51.6}
+06:06:58 django__django-13297 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 52.87}
+06:07:01 DONE django__django-13297 patch_lines 0 err  wall 122
+06:08:04 django__django-13346 repro {'status': 'BROKEN', 's': 23.6, 'kind': 'repro', 't': 23.68}
+06:08:10 django__django-13346 creg {'files': ['tests/serializers/test_json.py', 'tests/view_tests/tests/test_json.py'], 'n_tests': 36, 'n_pass': 36, 's': 5.3, 'kind': 'creg', 't': 30.01}
+06:08:15 django__django-13346 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.6, 'kind': 'checks', 't': 34.62}
+06:08:17 django__django-13346 tool {'name': 'semantic_search', 'model_s': 2.57, 'tool_s': 0.02, 'obs_chars': 4220, 'kind': 'tool', 't': 37.21}
+06:08:19 django__django-13346 tool {'name': 'search_code', 'model_s': 1.45, 'tool_s': 0.1, 'obs_chars': 2500, 'kind': 'tool', 't': 38.76}
+06:08:20 django__django-13346 tool {'name': 'semantic_search', 'model_s': 1.33, 'tool_s': 0.01, 'obs_chars': 1887, 'kind': 'tool', 't': 40.11}
+06:08:22 django__django-13346 tool {'name': 'search_code', 'model_s': 1.72, 'tool_s': 0.0, 'obs_chars': 184, 'kind': 'tool', 't': 41.83}
+06:08:23 django__django-13346 tool {'name': 'search_code', 'model_s': 1.25, 'tool_s': 0.0, 'obs_chars': 230, 'kind': 'tool', 't': 43.08}
+06:08:24 django__django-13346 tool {'name': 'read_file', 'model_s': 1.27, 'tool_s': 0.0, 'obs_chars': 4301, 'kind': 'tool', 't': 44.35}
+06:08:26 django__django-13346 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 45.84}
+06:08:27 django__django-13568 repro {'status': 'BROKEN', 's': 17.4, 'kind': 'repro', 't': 17.47}
+06:08:28 django__django-13346 tool {'name': 'read_file', 'model_s': 1.75, 'tool_s': 0.0, 'obs_chars': 7984, 'kind': 'tool', 't': 47.58}
+06:08:29 django__django-13346 tool {'name': 'search_code', 'model_s': 1.49, 'tool_s': 0.08, 'obs_chars': 2138, 'kind': 'tool', 't': 49.15}
+06:08:31 django__django-13346 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 50.98}
+06:08:33 django__django-13346 tool {'name': 'read_file', 'model_s': 1.57, 'tool_s': 0.0, 'obs_chars': 8461, 'kind': 'tool', 't': 52.55}
+06:08:33 django__django-13568 creg {'files': ['tests/auth_tests/test_models.py', 'tests/flatpages_tests/test_models.py'], 'n_tests': 56, 'n_pass': 56, 's': 6.0, 'kind': 'creg', 't': 23.6}
+06:08:34 django__django-13346 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 54.09}
+06:08:36 django__django-13346 tool {'name': 'search_code', 'model_s': 1.58, 'tool_s': 0.0, 'obs_chars': 188, 'kind': 'tool', 't': 55.68}
+06:08:37 django__django-13346 tool {'name': 'search_code', 'model_s': 1.05, 'tool_s': 0.09, 'obs_chars': 2500, 'kind': 'tool', 't': 56.81}
+06:08:38 django__django-13346 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 58.32}
+06:08:38 django__django-13568 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 5.7, 'kind': 'checks', 't': 29.25}
+06:08:41 django__django-13568 tool {'name': 'semantic_search', 'model_s': 2.61, 'tool_s': 0.02, 'obs_chars': 2327, 'kind': 'tool', 't': 31.89}
+06:08:41 DONE django__django-13346 patch_lines 0 err  wall 125
+06:08:42 django__django-13568 tool {'name': 'semantic_search', 'model_s': 1.28, 'tool_s': 0.02, 'obs_chars': 2822, 'kind': 'tool', 't': 33.19}
+06:08:44 django__django-13568 tool {'name': 'read_file', 'model_s': 1.64, 'tool_s': 0.0, 'obs_chars': 3810, 'kind': 'tool', 't': 34.84}
+06:08:46 django__django-13568 tool {'name': 'semantic_search', 'model_s': 2.03, 'tool_s': 0.01, 'obs_chars': 2001, 'kind': 'tool', 't': 36.89}
+06:08:48 django__django-13568 tool {'name': 'read_file', 'model_s': 1.95, 'tool_s': 0.0, 'obs_chars': 504, 'kind': 'tool', 't': 38.83}
+06:08:49 django__django-13568 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 40.26}
+06:08:51 django__django-13568 tool {'name': 'read_file', 'model_s': 1.27, 'tool_s': 0.0, 'obs_chars': 2621, 'kind': 'tool', 't': 41.53}
+06:08:56 django__django-13568 tool {'name': 'search_code', 'model_s': 5.68, 'tool_s': 0.0, 'obs_chars': 84, 'kind': 'tool', 't': 47.21}
+06:08:58 django__django-13568 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 48.81}
+06:08:59 django__django-13568 tool {'name': 'read_file', 'model_s': 1.14, 'tool_s': 0.0, 'obs_chars': 3909, 'kind': 'tool', 't': 49.95}
+06:09:02 django__django-13568 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 52.88}
+06:09:04 django__django-13568 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 54.62}
+06:09:05 django__django-13568 tool {'name': 'search_code', 'model_s': 1.02, 'tool_s': 0.0, 'obs_chars': 258, 'kind': 'tool', 't': 55.64}
+06:09:06 django__django-13568 tool {'name': 'read_file', 'model_s': 1.19, 'tool_s': 0.0, 'obs_chars': 1186, 'kind': 'tool', 't': 56.83}
+06:09:07 django__django-13568 tool {'name': 'read_file', 'model_s': 1.39, 'tool_s': 0.0, 'obs_chars': 1083, 'kind': 'tool', 't': 58.22}
+06:09:10 DONE django__django-13568 patch_lines 0 err  wall 129
+06:09:59 django__django-13569 repro {'status': 'BROKEN', 's': 17.1, 'kind': 'repro', 't': 17.17}
+06:10:04 django__django-13569 creg {'files': ['tests/queries/test_query.py', 'tests/gis_tests/geoapp/test_expressions.py'], 'n_tests': 14, 'n_pass': 14, 's': 4.9, 'kind': 'creg', 't': 22.13}
+06:10:08 django__django-13569 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.3, 'kind': 'checks', 't': 26.47}
+06:10:15 django__django-13569 tool {'name': 'search_code', 'model_s': 6.41, 'tool_s': 0.1, 'obs_chars': 119, 'kind': 'tool', 't': 32.98}
+06:10:16 django__django-13569 tool {'name': 'search_code', 'model_s': 0.93, 'tool_s': 0.08, 'obs_chars': 2500, 'kind': 'tool', 't': 34.01}
+06:10:17 django__django-13569 tool {'name': 'search_code', 'model_s': 1.57, 'tool_s': 0.0, 'obs_chars': 240, 'kind': 'tool', 't': 35.59}
+06:10:19 django__django-13569 tool {'name': 'read_file', 'model_s': 1.91, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 37.5}
+06:10:21 django__django-13569 tool {'name': 'read_file', 'model_s': 1.29, 'tool_s': 0.0, 'obs_chars': 5490, 'kind': 'tool', 't': 38.79}
+06:10:22 django__django-13569 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 40.2}
+06:10:23 django__django-13569 tool {'name': 'search_code', 'model_s': 1.43, 'tool_s': 0.08, 'obs_chars': 2500, 'kind': 'tool', 't': 41.72}
+06:10:25 django__django-13569 tool {'name': 'search_code', 'model_s': 1.54, 'tool_s': 0.0, 'obs_chars': 203, 'kind': 'tool', 't': 43.26}
+06:10:27 django__django-13569 tool {'name': 'read_file', 'model_s': 1.69, 'tool_s': 0.0, 'obs_chars': 4437, 'kind': 'tool', 't': 44.95}
+06:10:34 django__django-13569 edit_rollback {'path': 'django/db/models/sql/compiler.py', 'reason': 'syntax', 'kind': 'edit_rollback', 't': 52.36}
+06:10:34 django__django-13569 tool {'name': 'replace_in_file', 'model_s': 5.3, 'tool_s': 2.11, 'obs_chars': 143, 'kind': 'tool', 't': 52.36}
+06:10:36 django__django-13569 tool {'name': 'read_file', 'model_s': 2.02, 'tool_s': 0.0, 'obs_chars': 426, 'kind': 'tool', 't': 54.38}
+06:10:37 django__django-13569 tool {'name': 'search_code', 'model_s': 1.2, 'tool_s': 0.08, 'obs_chars': 2500, 'kind': 'tool', 't': 55.66}
+06:10:39 django__django-13569 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 57.19}
+06:10:41 django__django-13569 tool {'name': 'read_file', 'model_s': 1.67, 'tool_s': 0.0, 'obs_chars': 3701, 'kind': 'tool', 't': 58.87}
+06:10:42 django__django-13569 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 60.6}
+06:10:45 django__django-14011 repro {'status': 'PASSES_ON_BUGGY', 's': 25.1, 'kind': 'repro', 't': 25.17}
+06:10:46 DONE django__django-13569 patch_lines 0 err  wall 125
+06:10:50 django__django-14011 creg {'files': ['tests/backends/test_utils.py', 'tests/migrations/test_base.py'], 'n_tests': 7, 'n_pass': 4, 's': 4.8, 'kind': 'creg', 't': 30.06}
+06:10:55 django__django-14011 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.3, 'kind': 'checks', 't': 34.36}
+06:10:57 django__django-14011 tool {'name': 'semantic_search', 'model_s': 2.32, 'tool_s': 0.01, 'obs_chars': 745, 'kind': 'tool', 't': 36.69}
+06:10:58 django__django-14011 tool {'name': 'search_code', 'model_s': 1.18, 'tool_s': 0.0, 'obs_chars': 70, 'kind': 'tool', 't': 37.88}
+06:10:59 django__django-14011 tool {'name': 'read_file', 'model_s': 1.17, 'tool_s': 0.0, 'obs_chars': 3828, 'kind': 'tool', 't': 39.05}
+06:11:01 django__django-14011 tool {'name': 'read_file', 'model_s': 1.69, 'tool_s': 0.0, 'obs_chars': 974, 'kind': 'tool', 't': 40.74}
+06:11:03 django__django-14011 tool {'name': 'search_code', 'model_s': 1.59, 'tool_s': 0.0, 'obs_chars': 157, 'kind': 'tool', 't': 42.34}
+06:11:04 django__django-14011 tool {'name': 'semantic_search', 'model_s': 1.09, 'tool_s': 0.01, 'obs_chars': 1850, 'kind': 'tool', 't': 43.44}
+06:11:05 django__django-14011 tool {'name': 'read_file', 'model_s': 1.45, 'tool_s': 0.0, 'obs_chars': 7997, 'kind': 'tool', 't': 44.89}
+06:11:07 django__django-14011 tool {'name': 'read_file', 'model_s': 1.85, 'tool_s': 0.0, 'obs_chars': 7533, 'kind': 'tool', 't': 46.74}
+06:11:09 django__django-14011 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 49.02}
+06:11:11 django__django-14011 tool {'name': 'read_file', 'model_s': 1.67, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 50.7}
+06:11:12 django__django-14011 tool {'name': 'search_code', 'model_s': 1.11, 'tool_s': 0.1, 'obs_chars': 76, 'kind': 'tool', 't': 51.91}
+06:11:13 django__django-14011 tool {'name': 'semantic_search', 'model_s': 0.94, 'tool_s': 0.01, 'obs_chars': 1238, 'kind': 'tool', 't': 52.86}
+06:11:14 django__django-14011 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 54.27}
+06:11:16 django__django-14011 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 55.66}
+06:11:17 django__django-14011 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 56.89}
+06:11:20 DONE django__django-14011 patch_lines 0 err  wall 130
+06:12:28 django__django-14315 repro {'status': 'ALIGNED', 's': 28.9, 'kind': 'repro', 't': 28.97}
+06:12:33 django__django-14315 creg {'files': ['tests/migrations/test_base.py', 'tests/backends/base/test_base.py'], 'n_tests': 9, 'n_pass': 9, 's': 5.0, 'kind': 'creg', 't': 34.09}
+06:12:38 django__django-14315 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 5.1, 'kind': 'checks', 't': 39.22}
+06:12:40 django__django-14315 tool {'name': 'search_code', 'model_s': 2.58, 'tool_s': 0.0, 'obs_chars': 43, 'kind': 'tool', 't': 41.81}
+06:12:42 django__django-14315 tool {'name': 'read_file', 'model_s': 1.13, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 42.93}
+06:12:43 django__django-14315 tool {'name': 'search_code', 'model_s': 1.06, 'tool_s': 0.1, 'obs_chars': 2500, 'kind': 'tool', 't': 44.09}
+06:12:44 django__django-14315 tool {'name': 'search_code', 'model_s': 1.66, 'tool_s': 0.0, 'obs_chars': 74, 'kind': 'tool', 't': 45.75}
+06:12:46 django__django-14315 tool {'name': 'read_file', 'model_s': 1.62, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 47.37}
+06:12:47 django__django-14315 tool {'name': 'read_file', 'model_s': 1.19, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 48.57}
+06:12:48 django__django-14315 tool {'name': 'search_code', 'model_s': 1.22, 'tool_s': 0.01, 'obs_chars': 108, 'kind': 'tool', 't': 49.8}
+06:12:50 django__django-14315 tool {'name': 'search_code', 'model_s': 0.99, 'tool_s': 0.09, 'obs_chars': 2500, 'kind': 'tool', 't': 50.88}
+06:12:51 django__django-14315 tool {'name': 'search_code', 'model_s': 1.69, 'tool_s': 0.08, 'obs_chars': 263, 'kind': 'tool', 't': 52.64}
+06:12:53 django__django-14315 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 54.29}
+06:12:54 django__django-14315 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 55.58}
+06:12:55 django__django-14315 tool {'name': 'read_file', 'model_s': 1.22, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 56.8}
+06:12:57 django__django-14315 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 58.01}
+06:12:58 django__django-14315 tool {'name': 'read_file', 'model_s': 1.22, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 59.23}
+06:12:59 django__django-14315 tool {'name': 'read_file', 'model_s': 1.23, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 60.46}
+06:13:02 django__django-14534 repro {'status': 'BROKEN', 's': 26.6, 'kind': 'repro', 't': 26.68}
+06:13:02 DONE django__django-14315 patch_lines 0 err  wall 136
+06:13:08 django__django-14534 creg {'files': ['tests/postgres_tests/test_array.py', 'tests/forms_tests/tests/test_widgets.py'], 'n_tests': 122, 'n_pass': 0, 's': 5.4, 'kind': 'creg', 't': 32.2}
+06:13:12 django__django-14534 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.6, 'kind': 'checks', 't': 36.78}
+06:13:15 django__django-14534 tool {'name': 'semantic_search', 'model_s': 2.54, 'tool_s': 0.01, 'obs_chars': 2067, 'kind': 'tool', 't': 39.34}
+06:13:16 django__django-14534 tool {'name': 'read_file', 'model_s': 1.5, 'tool_s': 0.0, 'obs_chars': 1429, 'kind': 'tool', 't': 40.84}
+06:13:18 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 42.89}
+06:13:18 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 2.05, 'tool_s': 0.03, 'obs_chars': 562, 'kind': 'tool', 't': 42.92}
+06:13:21 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 45.22}
+06:13:21 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 2.3, 'tool_s': 0.03, 'obs_chars': 562, 'kind': 'tool', 't': 45.25}
+06:13:23 django__django-14534 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 47.3}
+06:13:25 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 49.56}
+06:13:25 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 2.27, 'tool_s': 0.05, 'obs_chars': 562, 'kind': 'tool', 't': 49.62}
+06:13:27 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 51.89}
+06:13:27 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 2.27, 'tool_s': 0.03, 'obs_chars': 562, 'kind': 'tool', 't': 51.91}
+06:13:29 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 54.1}
+06:13:30 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 2.19, 'tool_s': 0.02, 'obs_chars': 562, 'kind': 'tool', 't': 54.12}
+06:13:32 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 56.38}
+06:13:32 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 2.26, 'tool_s': 0.03, 'obs_chars': 562, 'kind': 'tool', 't': 56.41}
+06:13:34 django__django-14534 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 58.59}
+06:13:37 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 61.74}
+06:13:37 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 3.14, 'tool_s': 0.03, 'obs_chars': 562, 'kind': 'tool', 't': 61.77}
+06:13:41 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 65.59}
+06:13:41 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 3.82, 'tool_s': 0.01, 'obs_chars': 634, 'kind': 'tool', 't': 65.6}
+06:13:42 django__django-14534 tool {'name': 'read_file', 'model_s': 1.48, 'tool_s': 0.0, 'obs_chars': 246, 'kind': 'tool', 't': 67.09}
+06:13:46 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 70.82}
+06:13:46 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 3.73, 'tool_s': 0.01, 'obs_chars': 634, 'kind': 'tool', 't': 70.83}
+06:13:50 django__django-14534 edit_nomatch {'path': 'django/forms/boundfield.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 74.84}
+06:13:50 django__django-14534 tool {'name': 'replace_in_file', 'model_s': 4.01, 'tool_s': 0.01, 'obs_chars': 634, 'kind': 'tool', 't': 74.85}
+06:13:54 DONE django__django-14534 patch_lines 0 err  wall 153
+06:14:43 django__django-14608 repro {'status': 'BROKEN', 's': 34.7, 'kind': 'repro', 't': 34.73}
+06:14:52 django__django-14608 creg {'files': ['tests/auth_tests/test_forms.py', 'tests/admin_views/test_forms.py'], 'n_tests': 86, 'n_pass': 86, 's': 8.9, 'kind': 'creg', 't': 43.68}
+06:14:57 django__django-14608 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 5.2, 'kind': 'checks', 't': 48.93}
+06:14:59 django__django-14608 tool {'name': 'semantic_search', 'model_s': 2.24, 'tool_s': 0.01, 'obs_chars': 1342, 'kind': 'tool', 't': 51.18}
+06:15:00 django__django-14608 tool {'name': 'semantic_search', 'model_s': 1.03, 'tool_s': 0.01, 'obs_chars': 819, 'kind': 'tool', 't': 52.23}
+06:15:02 django__django-14608 tool {'name': 'read_file', 'model_s': 1.33, 'tool_s': 0.0, 'obs_chars': 394, 'kind': 'tool', 't': 53.56}
+06:15:03 django__django-14608 tool {'name': 'read_file', 'model_s': 1.33, 'tool_s': 0.0, 'obs_chars': 426, 'kind': 'tool', 't': 54.89}
+06:15:04 django__django-14608 tool {'name': 'search_code', 'model_s': 1.03, 'tool_s': 0.09, 'obs_chars': 351, 'kind': 'tool', 't': 56.02}
+06:15:05 django__django-14608 tool {'name': 'search_code', 'model_s': 1.0, 'tool_s': 0.0, 'obs_chars': 182, 'kind': 'tool', 't': 57.02}
+06:15:06 django__django-14608 tool {'name': 'read_file', 'model_s': 1.13, 'tool_s': 0.0, 'obs_chars': 3416, 'kind': 'tool', 't': 58.15}
+06:15:08 django__django-14608 tool {'name': 'search_code', 'model_s': 1.57, 'tool_s': 0.08, 'obs_chars': 63, 'kind': 'tool', 't': 59.81}
+06:15:10 django__django-14608 tool {'name': 'search_code', 'model_s': 1.6, 'tool_s': 0.08, 'obs_chars': 230, 'kind': 'tool', 't': 61.49}
+06:15:12 django__django-14608 edit_nomatch {'path': 'django/forms/forms.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 64.25}
+06:15:12 django__django-14608 tool {'name': 'replace_in_file', 'model_s': 2.76, 'tool_s': 0.05, 'obs_chars': 738, 'kind': 'tool', 't': 64.29}
+06:15:15 django__django-14672 repro {'status': 'BROKEN', 's': 18.8, 'kind': 'repro', 't': 18.85}
+06:15:15 django__django-14672 creg {'files': [], 'n_tests': 0, 'n_pass': 0, 's': 0.0, 'kind': 'creg', 't': 18.93}
+06:15:15 django__django-14608 edit_nomatch {'path': 'django/forms/formsets.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 67.2}
+06:15:15 django__django-14608 tool {'name': 'replace_in_file', 'model_s': 2.9, 'tool_s': 0.04, 'obs_chars': 895, 'kind': 'tool', 't': 67.24}
+06:15:17 django__django-14608 tool {'name': 'read_file', 'model_s': 1.51, 'tool_s': 0.0, 'obs_chars': 451, 'kind': 'tool', 't': 68.75}
+06:15:17 django__django-14672 tool {'name': 'semantic_search', 'model_s': 2.45, 'tool_s': 0.02, 'obs_chars': 1635, 'kind': 'tool', 't': 21.4}
+06:15:18 django__django-14608 tool {'name': 'search_code', 'model_s': 1.21, 'tool_s': 0.0, 'obs_chars': 210, 'kind': 'tool', 't': 69.97}
+06:15:19 django__django-14672 tool {'name': 'read_file', 'model_s': 1.64, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 23.04}
+06:15:20 django__django-14672 tool {'name': 'read_file', 'model_s': 1.29, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 24.33}
+06:15:21 django__django-14672 tool {'name': 'semantic_search', 'model_s': 0.87, 'tool_s': 0.02, 'obs_chars': 2494, 'kind': 'tool', 't': 25.21}
+06:15:23 django__django-14672 tool {'name': 'search_code', 'model_s': 1.59, 'tool_s': 0.09, 'obs_chars': 2117, 'kind': 'tool', 't': 26.9}
+06:15:25 django__django-14672 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 28.97}
+06:15:27 django__django-14672 tool {'name': 'search_code', 'model_s': 1.6, 'tool_s': 0.0, 'obs_chars': 185, 'kind': 'tool', 't': 30.57}
+06:15:27 django__django-14608 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 5.3, 'kind': 'checks', 't': 78.9}
+06:15:27 django__django-14608 edit_commit {'path': 'django/forms/formsets.py', 'score': [1, 0, 0], 'kind': 'edit_commit', 't': 79.04}
+06:15:27 django__django-14608 tool {'name': 'replace_in_file', 'model_s': 2.1, 'tool_s': 6.98, 'obs_chars': 79, 'kind': 'tool', 't': 79.04}
+06:15:28 django__django-14608 submit {'step': 15, 'kind': 'submit', 't': 79.62}
+06:15:28 django__django-14672 tool {'name': 'read_file', 'model_s': 1.35, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 31.92}
+06:15:29 django__django-14672 tool {'name': 'read_file', 'model_s': 1.35, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 33.28}
+06:15:31 DONE django__django-14608 patch_lines 13 err  wall 148
+06:15:31 django__django-14672 tool {'name': 'read_file', 'model_s': 1.33, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 34.61}
+06:15:32 django__django-14672 tool {'name': 'semantic_search', 'model_s': 0.88, 'tool_s': 0.01, 'obs_chars': 2228, 'kind': 'tool', 't': 35.49}
+06:15:33 django__django-14672 tool {'name': 'read_file', 'model_s': 1.69, 'tool_s': 0.0, 'obs_chars': 9148, 'kind': 'tool', 't': 37.19}
+06:15:38 django__django-14672 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 0.0, 'kind': 'checks', 't': 41.62}
+06:15:38 django__django-14672 edit_commit {'path': 'django/db/models/fields/reverse_related.py', 'score': [1, 0, 0], 'kind': 'edit_commit', 't': 41.77}
+06:15:38 django__django-14672 tool {'name': 'replace_in_file', 'model_s': 2.8, 'tool_s': 1.79, 'obs_chars': 77, 'kind': 'tool', 't': 41.77}
+06:15:39 django__django-14672 submit {'step': 14, 'kind': 'submit', 't': 42.86}
+06:15:42 DONE django__django-14672 patch_lines 13 err  wall 109
+06:17:20 django__django-15037 repro {'status': 'BROKEN', 's': 30.9, 'kind': 'repro', 't': 30.91}
+06:17:22 django__django-15127 repro {'status': 'BROKEN', 's': 26.1, 'kind': 'repro', 't': 26.14}
+06:17:25 django__django-15037 creg {'files': ['tests/backends/test_utils.py', 'tests/admin_docs/test_utils.py'], 'n_tests': 14, 'n_pass': 11, 's': 5.6, 'kind': 'creg', 't': 36.57}
+06:17:28 django__django-15127 creg {'files': ['tests/backends/test_utils.py', 'tests/migrations/test_base.py'], 'n_tests': 8, 'n_pass': 5, 's': 5.5, 'kind': 'creg', 't': 31.75}
+06:17:31 django__django-15037 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 5.1, 'kind': 'checks', 't': 41.71}
+06:17:32 django__django-15127 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.2, 'kind': 'checks', 't': 35.95}
+06:17:33 django__django-15037 tool {'name': 'semantic_search', 'model_s': 2.43, 'tool_s': 0.01, 'obs_chars': 1647, 'kind': 'tool', 't': 44.15}
+06:17:34 django__django-15037 tool {'name': 'semantic_search', 'model_s': 1.11, 'tool_s': 0.01, 'obs_chars': 1793, 'kind': 'tool', 't': 45.28}
+06:17:34 django__django-15127 tool {'name': 'semantic_search', 'model_s': 2.26, 'tool_s': 0.02, 'obs_chars': 1323, 'kind': 'tool', 't': 38.24}
+06:17:35 django__django-15037 tool {'name': 'semantic_search', 'model_s': 1.13, 'tool_s': 0.01, 'obs_chars': 986, 'kind': 'tool', 't': 46.43}
+06:17:36 django__django-15127 tool {'name': 'search_code', 'model_s': 1.23, 'tool_s': 0.09, 'obs_chars': 498, 'kind': 'tool', 't': 39.57}
+06:17:37 django__django-15037 tool {'name': 'semantic_search', 'model_s': 1.3, 'tool_s': 0.02, 'obs_chars': 2832, 'kind': 'tool', 't': 47.75}
+06:17:37 django__django-15127 tool {'name': 'read_file', 'model_s': 1.21, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 40.77}
+06:17:38 django__django-15127 tool {'name': 'read_file', 'model_s': 1.21, 'tool_s': 0.0, 'obs_chars': 1981, 'kind': 'tool', 't': 41.98}
+06:17:39 django__django-15037 tool {'name': 'read_file', 'model_s': 1.89, 'tool_s': 0.0, 'obs_chars': 784, 'kind': 'tool', 't': 49.63}
+06:17:40 django__django-15127 tool {'name': 'read_file', 'model_s': 1.42, 'tool_s': 0.0, 'obs_chars': 1738, 'kind': 'tool', 't': 43.4}
+06:17:40 django__django-15037 tool {'name': 'semantic_search', 'model_s': 1.31, 'tool_s': 0.02, 'obs_chars': 2834, 'kind': 'tool', 't': 50.95}
+06:17:41 django__django-15127 tool {'name': 'semantic_search', 'model_s': 1.49, 'tool_s': 0.01, 'obs_chars': 379, 'kind': 'tool', 't': 44.9}
+06:17:43 django__django-15127 tool {'name': 'read_file', 'model_s': 1.55, 'tool_s': 0.0, 'obs_chars': 3489, 'kind': 'tool', 't': 46.45}
+06:17:44 django__django-15037 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 55.29}
+06:17:44 django__django-15127 tool {'name': 'semantic_search', 'model_s': 1.62, 'tool_s': 0.01, 'obs_chars': 1156, 'kind': 'tool', 't': 48.08}
+06:17:46 django__django-15037 tool {'name': 'search_code', 'model_s': 1.39, 'tool_s': 0.01, 'obs_chars': 274, 'kind': 'tool', 't': 56.69}
+06:17:47 django__django-15037 tool {'name': 'read_file', 'model_s': 1.37, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 58.06}
+06:17:48 django__django-15037 tool {'name': 'semantic_search', 'model_s': 0.98, 'tool_s': 0.02, 'obs_chars': 986, 'kind': 'tool', 't': 59.05}
+06:17:49 django__django-15037 tool {'name': 'semantic_search', 'model_s': 1.06, 'tool_s': 0.02, 'obs_chars': 963, 'kind': 'tool', 't': 60.14}
+06:17:49 django__django-15127 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 3.9, 'kind': 'checks', 't': 53.2}
+06:17:49 django__django-15127 tool {'name': 'run_tests', 'model_s': 1.17, 'tool_s': 3.94, 'obs_chars': 55, 'kind': 'tool', 't': 53.2}
+06:17:51 django__django-15127 tool {'name': 'semantic_search', 'model_s': 1.25, 'tool_s': 0.02, 'obs_chars': 212, 'kind': 'tool', 't': 54.46}
+06:17:51 django__django-15037 tool {'name': 'read_file', 'model_s': 1.62, 'tool_s': 0.0, 'obs_chars': 9145, 'kind': 'tool', 't': 61.76}
+06:17:52 django__django-15127 tool {'name': 'read_file', 'model_s': 1.27, 'tool_s': 0.0, 'obs_chars': 1501, 'kind': 'tool', 't': 55.73}
+06:17:53 django__django-15037 tool {'name': 'search_code', 'model_s': 1.82, 'tool_s': 0.09, 'obs_chars': 278, 'kind': 'tool', 't': 63.68}
+06:17:53 django__django-15127 tool {'name': 'search_code', 'model_s': 1.38, 'tool_s': 0.08, 'obs_chars': 94, 'kind': 'tool', 't': 57.19}
+06:17:54 django__django-15037 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 65.55}
+06:17:55 django__django-15037 tool {'name': 'search_code', 'model_s': 0.98, 'tool_s': 0.01, 'obs_chars': 1485, 'kind': 'tool', 't': 66.54}
+06:17:56 django__django-15127 tool {'name': 'replace_in_file', 'model_s': 2.13, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 59.32}
+06:17:56 django__django-15127 tool {'name': 'semantic_search', 'model_s': 0.95, 'tool_s': 0.02, 'obs_chars': 212, 'kind': 'tool', 't': 60.29}
+06:17:58 DONE django__django-15037 patch_lines 0 err  wall 148
+06:17:58 django__django-15127 tool {'name': 'replace_in_file', 'model_s': 2.0, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 62.29}
+06:18:02 DONE django__django-15127 patch_lines 0 err  wall 140
+06:19:33 django__django-15278 repro {'status': 'BROKEN', 's': 15.3, 'kind': 'repro', 't': 15.37}
+06:19:37 django__django-15278 creg {'files': ['tests/migrations/test_base.py', 'tests/backends/base/test_base.py'], 'n_tests': 14, 'n_pass': 10, 's': 4.3, 'kind': 'creg', 't': 19.77}
+06:19:41 django__django-15278 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 3.8, 'kind': 'checks', 't': 23.62}
+06:19:43 django__django-15278 tool {'name': 'search_code', 'model_s': 2.35, 'tool_s': 0.01, 'obs_chars': 74, 'kind': 'tool', 't': 25.97}
+06:19:44 django__django-15278 tool {'name': 'search_code', 'model_s': 0.89, 'tool_s': 0.09, 'obs_chars': 2500, 'kind': 'tool', 't': 26.95}
+06:19:45 django__django-15161 repro {'status': 'BROKEN', 's': 30.1, 'kind': 'repro', 't': 30.73}
+06:19:46 django__django-15278 tool {'name': 'search_code', 'model_s': 1.32, 'tool_s': 0.0, 'obs_chars': 85, 'kind': 'tool', 't': 28.27}
+06:19:47 django__django-15278 tool {'name': 'read_file', 'model_s': 1.66, 'tool_s': 0.0, 'obs_chars': 4391, 'kind': 'tool', 't': 29.94}
+06:19:49 django__django-15278 tool {'name': 'search_code', 'model_s': 1.48, 'tool_s': 0.08, 'obs_chars': 2500, 'kind': 'tool', 't': 31.5}
+06:19:51 django__django-15278 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 33.28}
+06:19:52 django__django-15161 creg {'files': ['tests/auth_tests/test_models.py', 'tests/flatpages_tests/test_models.py'], 'n_tests': 56, 'n_pass': 56, 's': 7.1, 'kind': 'creg', 't': 37.92}
+06:19:52 django__django-15278 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 34.86}
+06:19:53 django__django-15278 tool {'name': 'semantic_search', 'model_s': 1.0, 'tool_s': 0.02, 'obs_chars': 1854, 'kind': 'tool', 't': 35.88}
+06:19:55 django__django-15278 tool {'name': 'read_file', 'model_s': 1.55, 'tool_s': 0.0, 'obs_chars': 9001, 'kind': 'tool', 't': 37.43}
+06:19:58 django__django-15161 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 6.3, 'kind': 'checks', 't': 44.2}
+06:20:00 django__django-15278 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 4.2, 'kind': 'checks', 't': 42.71}
+06:20:00 django__django-15278 tool {'name': 'run_tests', 'model_s': 1.12, 'tool_s': 4.16, 'obs_chars': 57, 'kind': 'tool', 't': 42.71}
+06:20:01 django__django-15161 tool {'name': 'semantic_search', 'model_s': 2.32, 'tool_s': 0.01, 'obs_chars': 1801, 'kind': 'tool', 't': 46.53}
+06:20:01 django__django-15278 tool {'name': 'semantic_search', 'model_s': 1.43, 'tool_s': 0.01, 'obs_chars': 1362, 'kind': 'tool', 't': 44.16}
+06:20:02 django__django-15161 tool {'name': 'search_code', 'model_s': 1.24, 'tool_s': 0.0, 'obs_chars': 162, 'kind': 'tool', 't': 47.77}
+06:20:03 django__django-15278 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 45.6}
+06:20:03 django__django-15161 tool {'name': 'read_file', 'model_s': 1.14, 'tool_s': 0.0, 'obs_chars': 3711, 'kind': 'tool', 't': 48.92}
+06:20:04 django__django-15278 tool {'name': 'semantic_search', 'model_s': 1.09, 'tool_s': 0.03, 'obs_chars': 415, 'kind': 'tool', 't': 46.72}
+06:20:04 django__django-15161 tool {'name': 'search_code', 'model_s': 1.42, 'tool_s': 0.0, 'obs_chars': 125, 'kind': 'tool', 't': 50.34}
+06:20:05 django__django-15278 tool {'name': 'read_file', 'model_s': 1.36, 'tool_s': 0.0, 'obs_chars': 4006, 'kind': 'tool', 't': 48.08}
+06:20:07 django__django-15161 edit_nomatch {'path': 'django/db/models/expressions.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 52.65}
+06:20:07 django__django-15161 tool {'name': 'replace_in_file', 'model_s': 2.31, 'tool_s': 0.09, 'obs_chars': 700, 'kind': 'tool', 't': 52.74}
+06:20:07 django__django-15278 tool {'name': 'semantic_search', 'model_s': 1.48, 'tool_s': 0.07, 'obs_chars': 415, 'kind': 'tool', 't': 49.62}
+06:20:09 django__django-15161 edit_nomatch {'path': 'django/db/models/expressions.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 54.82}
+06:20:09 django__django-15161 tool {'name': 'replace_in_file', 'model_s': 2.07, 'tool_s': 0.08, 'obs_chars': 700, 'kind': 'tool', 't': 54.89}
+06:20:10 DONE django__django-15278 patch_lines 0 err  wall 128
+06:20:11 django__django-15161 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 56.95}
+06:20:13 django__django-15161 edit_nomatch {'path': 'django/db/models/expressions.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 58.88}
+06:20:13 django__django-15161 tool {'name': 'replace_in_file', 'model_s': 1.93, 'tool_s': 0.11, 'obs_chars': 700, 'kind': 'tool', 't': 58.99}
+06:20:15 django__django-15161 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 61.0}
+06:20:17 django__django-15161 edit_nomatch {'path': 'django/db/models/expressions.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 63.0}
+06:20:17 django__django-15161 tool {'name': 'replace_in_file', 'model_s': 2.0, 'tool_s': 0.11, 'obs_chars': 700, 'kind': 'tool', 't': 63.11}
+06:20:19 django__django-15161 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 65.1}
+06:20:21 django__django-15161 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 67.04}
+06:20:22 django__django-15161 tool {'name': 'semantic_search', 'model_s': 1.14, 'tool_s': 0.04, 'obs_chars': 3390, 'kind': 'tool', 't': 68.22}
+06:20:25 django__django-15161 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 70.63}
+06:20:35 django__django-15161 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 6.7, 'kind': 'checks', 't': 81.06}
+06:20:35 django__django-15161 edit_commit {'path': 'django/db/models/expressions.py', 'score': [1, 0, 0], 'kind': 'edit_commit', 't': 81.21}
+06:20:35 django__django-15161 tool {'name': 'replace_in_file', 'model_s': 2.38, 'tool_s': 8.2, 'obs_chars': 79, 'kind': 'tool', 't': 81.21}
+06:20:38 DONE django__django-15161 patch_lines 13 err  wall 160
+06:22:00 django__django-16901 repro {'status': 'BROKEN', 's': 29.9, 'kind': 'repro', 't': 29.9}
+06:22:04 django__django-16901 creg {'files': ['tests/queries/test_query.py'], 'n_tests': 21, 'n_pass': 21, 's': 3.8, 'kind': 'creg', 't': 33.82}
+06:22:06 django__django-16901 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 2.4, 'kind': 'checks', 't': 36.25}
+06:22:09 django__django-16901 tool {'name': 'search_code', 'model_s': 2.55, 'tool_s': 0.0, 'obs_chars': 205, 'kind': 'tool', 't': 38.8}
+06:22:10 django__django-16901 tool {'name': 'read_file', 'model_s': 1.26, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 40.07}
+06:22:11 django__django-16901 tool {'name': 'read_file', 'model_s': 1.17, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 41.23}
+06:22:13 django__django-16901 tool {'name': 'search_code', 'model_s': 1.18, 'tool_s': 0.11, 'obs_chars': 64, 'kind': 'tool', 't': 42.52}
+06:22:14 django__django-16901 tool {'name': 'search_code', 'model_s': 1.26, 'tool_s': 0.11, 'obs_chars': 87, 'kind': 'tool', 't': 43.89}
+06:22:16 django__django-16901 tool {'name': 'search_code', 'model_s': 1.46, 'tool_s': 0.08, 'obs_chars': 73, 'kind': 'tool', 't': 45.43}
+06:22:16 django__django-16901 tool {'name': 'semantic_search', 'model_s': 0.9, 'tool_s': 0.02, 'obs_chars': 500, 'kind': 'tool', 't': 46.35}
+06:22:18 django__django-16901 tool {'name': 'read_file', 'model_s': 1.49, 'tool_s': 0.0, 'obs_chars': 7859, 'kind': 'tool', 't': 47.85}
+06:22:21 django__django-16901 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 51.0}
+06:22:23 django__django-16901 tool {'name': 'search_code', 'model_s': 1.64, 'tool_s': 0.09, 'obs_chars': 56, 'kind': 'tool', 't': 52.72}
+06:22:24 django__django-16901 tool {'name': 'read_file', 'model_s': 1.27, 'tool_s': 0.0, 'obs_chars': 835, 'kind': 'tool', 't': 53.98}
+06:22:25 django__django-16901 tool {'name': 'semantic_search', 'model_s': 1.09, 'tool_s': 0.03, 'obs_chars': 1895, 'kind': 'tool', 't': 55.11}
+06:22:27 django__django-16901 tool {'name': 'read_file', 'model_s': 1.81, 'tool_s': 0.04, 'obs_chars': 2509, 'kind': 'tool', 't': 56.96}
+06:22:29 django__django-16901 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 59.17}
+06:22:31 django__django-16901 tool {'name': 'read_file', 'model_s': 1.61, 'tool_s': 0.04, 'obs_chars': 7070, 'kind': 'tool', 't': 60.82}
+06:22:35 DONE django__django-16901 patch_lines 0 err  wall 146
+06:23:03 matplotlib__matplotlib-20826 repro {'status': 'PASSES_ON_BUGGY', 's': 22.1, 'kind': 'repro', 't': 22.21}
+06:23:51 matplotlib__matplotlib-20826 creg {'files': ['lib/matplotlib/tests/test_figure.py', 'lib/matplotlib/tests/test_pyplot.py'], 'n_tests': 113, 'n_pass': 111, 's': 47.3, 'kind': 'creg', 't': 69.55}
+06:24:45 matplotlib__matplotlib-20826 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 54.1, 'kind': 'checks', 't': 123.67}
+06:24:48 matplotlib__matplotlib-20826 tool {'name': 'search_code', 'model_s': 2.74, 'tool_s': 0.24, 'obs_chars': 116, 'kind': 'tool', 't': 126.65}
+06:24:49 matplotlib__matplotlib-20826 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 127.63}
+06:24:49 matplotlib__matplotlib-20826 tool {'name': 'get_definition', 'model_s': 0.59, 'tool_s': 0.01, 'obs_chars': 3474, 'kind': 'tool', 't': 128.23}
+06:24:51 matplotlib__matplotlib-20826 tool {'name': 'search_code', 'model_s': 1.56, 'tool_s': 0.0, 'obs_chars': 58, 'kind': 'tool', 't': 129.8}
+06:24:53 matplotlib__matplotlib-20826 tool {'name': 'read_file', 'model_s': 1.87, 'tool_s': 0.0, 'obs_chars': 1917, 'kind': 'tool', 't': 131.67}
+06:24:54 matplotlib__matplotlib-20826 tool {'name': 'search_code', 'model_s': 1.29, 'tool_s': 0.0, 'obs_chars': 121, 'kind': 'tool', 't': 132.96}
+06:24:56 matplotlib__matplotlib-20826 tool {'name': 'read_file', 'model_s': 1.64, 'tool_s': 0.0, 'obs_chars': 136, 'kind': 'tool', 't': 134.61}
+06:24:57 matplotlib__matplotlib-20826 tool {'name': 'read_file', 'model_s': 1.29, 'tool_s': 0.0, 'obs_chars': 214, 'kind': 'tool', 't': 135.9}
+06:24:58 matplotlib__matplotlib-20826 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 136.96}
+06:24:59 matplotlib__matplotlib-20826 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 138.29}
+06:25:01 matplotlib__matplotlib-20826 tool {'name': 'read_file', 'model_s': 1.29, 'tool_s': 0.0, 'obs_chars': 416, 'kind': 'tool', 't': 139.58}
+06:25:44 matplotlib__matplotlib-20826 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 42.2, 'kind': 'checks', 't': 182.43}
+06:25:44 matplotlib__matplotlib-20826 tool {'name': 'run_tests', 'model_s': 0.61, 'tool_s': 42.23, 'obs_chars': 59, 'kind': 'tool', 't': 182.43}
+06:25:45 matplotlib__matplotlib-20826 tool {'name': 'semantic_search', 'model_s': 1.13, 'tool_s': 0.01, 'obs_chars': 2282, 'kind': 'tool', 't': 183.57}
+06:25:48 matplotlib__matplotlib-20826 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 186.77}
+06:25:50 matplotlib__matplotlib-20826 tool {'name': 'read_file', 'model_s': 1.65, 'tool_s': 0.0, 'obs_chars': 284, 'kind': 'tool', 't': 188.42}
+06:25:55 DONE matplotlib__matplotlib-20826 patch_lines 0 err  wall 317
+06:25:59 matplotlib__matplotlib-24637 repro {'status': 'PASSES_ON_BUGGY', 's': 30.1, 'kind': 'repro', 't': 30.11}
+06:26:53 matplotlib__matplotlib-24637 creg {'files': ['lib/matplotlib/tests/test_figure.py', 'lib/matplotlib/tests/test_pyplot.py'], 'n_tests': 138, 'n_pass': 135, 's': 54.0, 'kind': 'creg', 't': 84.11}
+06:27:58 matplotlib__matplotlib-24637 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 64.9, 'kind': 'checks', 't': 149.04}
+06:28:01 matplotlib__matplotlib-24637 tool {'name': 'search_code', 'model_s': 3.17, 'tool_s': 0.17, 'obs_chars': 976, 'kind': 'tool', 't': 152.38}
+06:28:02 matplotlib__matplotlib-24637 tool {'name': 'search_code', 'model_s': 1.15, 'tool_s': 0.01, 'obs_chars': 303, 'kind': 'tool', 't': 153.54}
+06:28:04 matplotlib__matplotlib-24637 tool {'name': 'read_file', 'model_s': 1.31, 'tool_s': 0.0, 'obs_chars': 7070, 'kind': 'tool', 't': 154.84}
+06:28:05 matplotlib__matplotlib-24637 tool {'name': 'search_code', 'model_s': 1.51, 'tool_s': 0.0, 'obs_chars': 32, 'kind': 'tool', 't': 156.36}
+06:28:12 matplotlib__matplotlib-24637 edit_fuzzy {'path': 'lib/matplotlib/offsetbox.py', 'how': 'whitespace-normalised match', 'kind': 'edit_fuzzy', 't': 162.94}
+06:28:15 matplotlib__matplotlib-24637 edit_rollback {'path': 'lib/matplotlib/offsetbox.py', 'reason': 'syntax', 'kind': 'edit_rollback', 't': 165.98}
+06:28:15 matplotlib__matplotlib-24637 tool {'name': 'replace_in_file', 'model_s': 6.57, 'tool_s': 3.05, 'obs_chars': 225, 'kind': 'tool', 't': 165.98}
+06:28:16 matplotlib__matplotlib-24637 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 167.11}
+06:28:17 matplotlib__matplotlib-24637 tool {'name': 'search_code', 'model_s': 1.18, 'tool_s': 0.0, 'obs_chars': 233, 'kind': 'tool', 't': 168.3}
+06:28:18 matplotlib__matplotlib-24637 tool {'name': 'search_code', 'model_s': 1.0, 'tool_s': 0.03, 'obs_chars': 2125, 'kind': 'tool', 't': 169.33}
+06:28:19 matplotlib__matplotlib-24637 tool {'name': 'search_code', 'model_s': 1.41, 'tool_s': 0.0, 'obs_chars': 27, 'kind': 'tool', 't': 170.74}
+06:28:21 matplotlib__matplotlib-24637 tool {'name': 'read_file', 'model_s': 1.57, 'tool_s': 0.0, 'obs_chars': 537, 'kind': 'tool', 't': 172.31}
+06:28:22 matplotlib__matplotlib-24637 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 173.43}
+06:28:24 matplotlib__matplotlib-24637 tool {'name': 'read_file', 'model_s': 1.41, 'tool_s': 0.0, 'obs_chars': 2361, 'kind': 'tool', 't': 174.84}
+06:28:25 matplotlib__matplotlib-24637 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 176.29}
+06:28:27 matplotlib__matplotlib-24637 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 177.98}
+06:28:28 matplotlib__matplotlib-24637 tool {'name': 'search_code', 'model_s': 1.08, 'tool_s': 0.02, 'obs_chars': 2125, 'kind': 'tool', 't': 179.08}
+06:28:44 DONE matplotlib__matplotlib-24637 patch_lines 0 err  wall 369
+06:29:33 matplotlib__matplotlib-25122 repro {'status': 'BROKEN', 's': 35.0, 'kind': 'repro', 't': 35.06}
+06:30:11 matplotlib__matplotlib-25122 creg {'files': ['lib/matplotlib/tests/test_mlab.py'], 'n_tests': 2422, 'n_pass': 2422, 's': 38.5, 'kind': 'creg', 't': 73.54}
+06:30:40 matplotlib__matplotlib-25122 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 28.5, 'kind': 'checks', 't': 102.0}
+06:30:43 matplotlib__matplotlib-25122 tool {'name': 'search_code', 'model_s': 3.31, 'tool_s': 0.16, 'obs_chars': 130, 'kind': 'tool', 't': 105.48}
+06:30:45 matplotlib__matplotlib-25122 tool {'name': 'search_code', 'model_s': 1.44, 'tool_s': 0.03, 'obs_chars': 126, 'kind': 'tool', 't': 106.95}
+06:30:46 matplotlib__matplotlib-25122 tool {'name': 'read_file', 'model_s': 1.22, 'tool_s': 0.0, 'obs_chars': 6190, 'kind': 'tool', 't': 108.17}
+06:30:48 matplotlib__matplotlib-25122 tool {'name': 'search_code', 'model_s': 2.2, 'tool_s': 0.03, 'obs_chars': 115, 'kind': 'tool', 't': 110.4}
+06:30:50 matplotlib__matplotlib-25122 tool {'name': 'read_file', 'model_s': 1.95, 'tool_s': 0.0, 'obs_chars': 1504, 'kind': 'tool', 't': 112.36}
+06:31:33 matplotlib__matplotlib-25122 checks {'repro': 'NO_REPRO', 'regression_clean': False, 'broken': 80, 's': 36.3, 'kind': 'checks', 't': 155.39}
+06:31:39 matplotlib__matplotlib-25122 edit_rollback {'path': 'lib/matplotlib/mlab.py', 'reason': 'score', 'score': [0, -80, 0], 'best': [1, 0, 0], 'kind': 'edit_rollback', 't': 161.83}
+06:31:39 matplotlib__matplotlib-25122 tool {'name': 'replace_in_file', 'model_s': 3.48, 'tool_s': 46.0, 'obs_chars': 569, 'kind': 'tool', 't': 161.83}
+06:31:42 matplotlib__matplotlib-25122 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 164.0}
+06:31:43 matplotlib__matplotlib-25122 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 165.67}
+06:31:45 matplotlib__matplotlib-25122 tool {'name': 'read_file', 'model_s': 1.21, 'tool_s': 0.0, 'obs_chars': 742, 'kind': 'tool', 't': 166.87}
+06:31:46 matplotlib__matplotlib-25122 tool {'name': 'search_code', 'model_s': 1.73, 'tool_s': 0.03, 'obs_chars': 151, 'kind': 'tool', 't': 168.63}
+06:31:48 matplotlib__matplotlib-25122 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 170.34}
+06:31:49 matplotlib__matplotlib-25122 tool {'name': 'read_file', 'model_s': 1.24, 'tool_s': 0.0, 'obs_chars': 2550, 'kind': 'tool', 't': 171.59}
+06:32:04 matplotlib__matplotlib-25775 repro {'status': 'ALIGNED', 's': 21.8, 'kind': 'repro', 't': 21.86}
+06:32:24 matplotlib__matplotlib-25122 checks {'repro': 'NO_REPRO', 'regression_clean': False, 'broken': 12, 's': 30.5, 'kind': 'checks', 't': 205.96}
+06:32:25 matplotlib__matplotlib-25122 edit_rollback {'path': 'lib/matplotlib/mlab.py', 'reason': 'score', 'score': [0, -12, 0], 'best': [1, 0, 0], 'kind': 'edit_rollback', 't': 206.93}
+06:32:25 matplotlib__matplotlib-25122 tool {'name': 'replace_in_file', 'model_s': 2.34, 'tool_s': 33.01, 'obs_chars': 705, 'kind': 'tool', 't': 206.93}
+06:32:27 matplotlib__matplotlib-25122 tool {'name': 'read_file', 'model_s': 1.99, 'tool_s': 0.0, 'obs_chars': 1599, 'kind': 'tool', 't': 208.93}
+06:32:29 matplotlib__matplotlib-25122 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 211.17}
+06:32:35 matplotlib__matplotlib-25775 creg {'files': ['lib/matplotlib/tests/test_backend_bases.py', 'lib/matplotlib/tests/test_backend_template.py'], 'n_tests': 61, 'n_pass': 61, 's': 31.0, 'kind': 'creg', 't': 52.86}
+06:32:39 DONE matplotlib__matplotlib-25122 patch_lines 0 err  wall 404
+06:33:03 matplotlib__matplotlib-25775 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 27.2, 'kind': 'checks', 't': 80.05}
+06:33:05 matplotlib__matplotlib-25775 tool {'name': 'semantic_search', 'model_s': 2.48, 'tool_s': 0.01, 'obs_chars': 964, 'kind': 'tool', 't': 82.54}
+06:33:06 matplotlib__matplotlib-25775 tool {'name': 'semantic_search', 'model_s': 1.14, 'tool_s': 0.01, 'obs_chars': 738, 'kind': 'tool', 't': 83.69}
+06:33:07 matplotlib__matplotlib-25775 tool {'name': 'semantic_search', 'model_s': 0.92, 'tool_s': 0.02, 'obs_chars': 601, 'kind': 'tool', 't': 84.63}
+06:33:08 matplotlib__matplotlib-25775 duplicate {'name': 'semantic_search', 'kind': 'duplicate', 't': 85.71}
+06:33:09 matplotlib__matplotlib-25775 tool {'name': 'semantic_search', 'model_s': 0.9, 'tool_s': 0.01, 'obs_chars': 1488, 'kind': 'tool', 't': 86.61}
+06:33:10 matplotlib__matplotlib-25775 tool {'name': 'semantic_search', 'model_s': 1.17, 'tool_s': 0.01, 'obs_chars': 1488, 'kind': 'tool', 't': 87.79}
+06:33:12 matplotlib__matplotlib-25775 tool {'name': 'semantic_search', 'model_s': 1.48, 'tool_s': 0.02, 'obs_chars': 914, 'kind': 'tool', 't': 89.3}
+06:33:16 matplotlib__matplotlib-25775 tool {'name': 'search_code', 'model_s': 3.86, 'tool_s': 0.03, 'obs_chars': 652, 'kind': 'tool', 't': 93.19}
+06:33:17 matplotlib__matplotlib-25775 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 94.35}
+06:33:18 matplotlib__matplotlib-25775 tool {'name': 'get_definition', 'model_s': 0.68, 'tool_s': 0.0, 'obs_chars': 2439, 'kind': 'tool', 't': 95.03}
+06:33:22 matplotlib__matplotlib-25775 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 99.14}
+06:33:23 matplotlib__matplotlib-25775 tool {'name': 'search_code', 'model_s': 1.38, 'tool_s': 0.02, 'obs_chars': 2500, 'kind': 'tool', 't': 100.54}
+06:33:25 matplotlib__matplotlib-25775 tool {'name': 'search_code', 'model_s': 2.35, 'tool_s': 0.0, 'obs_chars': 311, 'kind': 'tool', 't': 102.89}
+06:33:27 matplotlib__matplotlib-25775 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 104.29}
+06:33:28 matplotlib__matplotlib-25775 tool {'name': 'search_code', 'model_s': 1.01, 'tool_s': 0.03, 'obs_chars': 652, 'kind': 'tool', 't': 105.33}
+06:33:37 DONE matplotlib__matplotlib-25775 patch_lines 0 err  wall 292
+06:36:13 matplotlib__matplotlib-26208 repro {'status': 'ALIGNED', 's': 29.7, 'kind': 'repro', 't': 29.8}
+06:36:23 pydata__xarray-3305 repro {'status': 'ALIGNED', 's': 15.2, 'kind': 'repro', 't': 15.27}
+06:36:30 matplotlib__matplotlib-26208 creg {'files': ['lib/matplotlib/tests/test_pyplot.py'], 'n_tests': 26, 'n_pass': 25, 's': 16.8, 'kind': 'creg', 't': 46.59}
+06:36:48 matplotlib__matplotlib-26208 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 18.4, 'kind': 'checks', 't': 64.99}
+06:36:54 matplotlib__matplotlib-26208 tool {'name': 'search_code', 'model_s': 5.84, 'tool_s': 0.01, 'obs_chars': 233, 'kind': 'tool', 't': 70.84}
+06:36:55 matplotlib__matplotlib-26208 tool {'name': 'search_code', 'model_s': 0.97, 'tool_s': 0.17, 'obs_chars': 2296, 'kind': 'tool', 't': 71.99}
+06:36:56 matplotlib__matplotlib-26208 tool {'name': 'search_code', 'model_s': 1.42, 'tool_s': 0.0, 'obs_chars': 210, 'kind': 'tool', 't': 73.42}
+06:36:58 matplotlib__matplotlib-26208 tool {'name': 'read_file', 'model_s': 1.88, 'tool_s': 0.0, 'obs_chars': 3132, 'kind': 'tool', 't': 75.3}
+06:37:00 matplotlib__matplotlib-26208 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 76.88}
+06:37:01 matplotlib__matplotlib-26208 tool {'name': 'search_code', 'model_s': 1.56, 'tool_s': 0.0, 'obs_chars': 230, 'kind': 'tool', 't': 78.45}
+06:37:02 matplotlib__matplotlib-26208 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 79.49}
+06:37:03 matplotlib__matplotlib-26208 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 80.55}
+06:37:04 matplotlib__matplotlib-26208 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 81.55}
+06:37:05 matplotlib__matplotlib-26208 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 82.57}
+06:37:07 matplotlib__matplotlib-26208 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 83.61}
+06:37:07 pydata__xarray-3305 creg {'files': ['xarray/tests/test_dataset.py', 'xarray/tests/test_groupby.py'], 'n_tests': 855, 'n_pass': 846, 's': 43.9, 'kind': 'creg', 't': 59.17}
+06:37:15 DONE matplotlib__matplotlib-26208 patch_lines 0 err  wall 276
+06:38:00 pydata__xarray-3305 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 53.1, 'kind': 'checks', 't': 112.28}
+06:38:53 pydata__xarray-3305 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 51.5, 'kind': 'checks', 't': 165.85}
+06:38:53 pydata__xarray-3305 tool {'name': 'run_tests', 'model_s': 2.09, 'tool_s': 51.48, 'obs_chars': 461, 'kind': 'tool', 't': 165.85}
+06:39:01 pydata__xarray-3305 tool {'name': 'semantic_search', 'model_s': 4.55, 'tool_s': 3.04, 'obs_chars': 2803, 'kind': 'tool', 't': 173.44}
+06:39:03 pydata__xarray-3305 tool {'name': 'read_file', 'model_s': 1.73, 'tool_s': 0.0, 'obs_chars': 2532, 'kind': 'tool', 't': 175.18}
+06:39:05 pydata__xarray-3305 tool {'name': 'semantic_search', 'model_s': 1.64, 'tool_s': 0.34, 'obs_chars': 935, 'kind': 'tool', 't': 177.16}
+06:39:07 pydata__xarray-3305 tool {'name': 'read_file', 'model_s': 2.58, 'tool_s': 0.0, 'obs_chars': 4660, 'kind': 'tool', 't': 179.74}
+06:39:09 pydata__xarray-3305 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 181.63}
+06:39:11 pydata__xarray-3305 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 183.44}
+06:39:13 pydata__xarray-3305 tool {'name': 'search_code', 'model_s': 1.09, 'tool_s': 0.83, 'obs_chars': 164, 'kind': 'tool', 't': 185.37}
+06:39:14 pydata__xarray-3305 tool {'name': 'search_code', 'model_s': 1.0, 'tool_s': 0.0, 'obs_chars': 164, 'kind': 'tool', 't': 186.37}
+06:39:15 pydata__xarray-3305 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 187.68}
+06:39:38 pydata__xarray-4356 repro {'status': 'ALIGNED', 's': 23.2, 'kind': 'repro', 't': 23.27}
+06:39:57 pydata__xarray-4356 creg {'files': ['xarray/tests/test_computation.py'], 'n_tests': 93, 'n_pass': 92, 's': 19.0, 'kind': 'creg', 't': 42.32}
+06:40:02 pydata__xarray-3305 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 46.4, 'kind': 'checks', 't': 234.68}
+06:40:02 pydata__xarray-3305 tool {'name': 'run_tests', 'model_s': 0.58, 'tool_s': 46.42, 'obs_chars': 461, 'kind': 'tool', 't': 234.68}
+06:40:04 pydata__xarray-3305 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 236.13}
+06:40:07 pydata__xarray-3305 edit_nomatch {'path': 'xarray/core/dataarray.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 239.16}
+06:40:07 pydata__xarray-3305 tool {'name': 'replace_in_file', 'model_s': 3.02, 'tool_s': 0.23, 'obs_chars': 640, 'kind': 'tool', 't': 239.39}
+06:40:10 pydata__xarray-3305 edit_nomatch {'path': 'xarray/core/dataarray.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 242.51}
+06:40:10 pydata__xarray-3305 tool {'name': 'replace_in_file', 'model_s': 3.12, 'tool_s': 0.27, 'obs_chars': 640, 'kind': 'tool', 't': 242.78}
+06:40:14 pydata__xarray-3305 edit_nomatch {'path': 'xarray/core/dataarray.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 246.21}
+06:40:14 pydata__xarray-3305 tool {'name': 'replace_in_file', 'model_s': 3.43, 'tool_s': 0.17, 'obs_chars': 546, 'kind': 'tool', 't': 246.38}
+06:40:18 pydata__xarray-4356 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 21.0, 'kind': 'checks', 't': 63.35}
+06:40:21 DONE pydata__xarray-3305 patch_lines 0 err  wall 404
+06:40:21 pydata__xarray-4356 tool {'name': 'semantic_search', 'model_s': 2.6, 'tool_s': 0.01, 'obs_chars': 1362, 'kind': 'tool', 't': 65.95}
+06:40:23 pydata__xarray-4356 tool {'name': 'read_file', 'model_s': 1.55, 'tool_s': 0.0, 'obs_chars': 929, 'kind': 'tool', 't': 67.5}
+06:40:25 pydata__xarray-4356 edit_nomatch {'path': 'xarray/core/nanops.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 70.17}
+06:40:25 pydata__xarray-4356 tool {'name': 'replace_in_file', 'model_s': 2.67, 'tool_s': 0.02, 'obs_chars': 785, 'kind': 'tool', 't': 70.19}
+06:40:28 pydata__xarray-4356 edit_nomatch {'path': 'xarray/core/nanops.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 73.15}
+06:40:28 pydata__xarray-4356 tool {'name': 'replace_in_file', 'model_s': 2.96, 'tool_s': 0.01, 'obs_chars': 785, 'kind': 'tool', 't': 73.17}
+06:40:30 pydata__xarray-4356 tool {'name': 'read_file', 'model_s': 1.45, 'tool_s': 0.0, 'obs_chars': 112, 'kind': 'tool', 't': 74.62}
+06:40:32 pydata__xarray-4356 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 77.34}
+06:40:34 pydata__xarray-4356 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 78.58}
+06:40:39 pydata__xarray-4356 edit_nomatch {'path': 'xarray/core/nanops.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 83.79}
+06:40:39 pydata__xarray-4356 tool {'name': 'replace_in_file', 'model_s': 5.21, 'tool_s': 0.02, 'obs_chars': 785, 'kind': 'tool', 't': 83.81}
+06:40:42 pydata__xarray-4356 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 86.57}
+06:40:43 pydata__xarray-4356 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 88.0}
+06:40:44 pydata__xarray-4356 tool {'name': 'semantic_search', 'model_s': 1.12, 'tool_s': 0.02, 'obs_chars': 2706, 'kind': 'tool', 't': 89.13}
+06:40:46 pydata__xarray-4356 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 90.92}
+06:41:18 pydata__xarray-4356 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 26.7, 'kind': 'checks', 't': 122.56}
+06:41:18 pydata__xarray-4356 edit_commit {'path': 'xarray/core/nanops.py', 'score': [1, 0, 1], 'kind': 'edit_commit', 't': 123.33}
+06:41:18 pydata__xarray-4356 tool {'name': 'replace_in_file', 'model_s': 3.93, 'tool_s': 28.48, 'obs_chars': 308, 'kind': 'tool', 't': 123.33}
+06:41:42 pydata__xarray-4356 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 23.1, 'kind': 'checks', 't': 147.04}
+06:41:42 pydata__xarray-4356 tool {'name': 'run_tests', 'model_s': 0.66, 'tool_s': 23.06, 'obs_chars': 286, 'kind': 'tool', 't': 147.05}
+06:41:44 pydata__xarray-4356 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 149.26}
+06:41:51 DONE pydata__xarray-4356 patch_lines 13 err  wall 276
+06:42:03 scikit-learn__scikit-learn-14496 repro {'status': 'PASSES_ON_BUGGY', 's': 14.5, 'kind': 'repro', 't': 14.53}
+06:42:10 scikit-learn__scikit-learn-14496 creg {'files': ['sklearn/tests/test_base.py', 'sklearn/datasets/tests/test_base.py'], 'n_tests': 46, 'n_pass': 46, 's': 6.7, 'kind': 'creg', 't': 21.19}
+06:42:16 scikit-learn__scikit-learn-14496 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 6.4, 'kind': 'checks', 't': 27.62}
+06:42:19 scikit-learn__scikit-learn-14496 tool {'name': 'search_code', 'model_s': 2.76, 'tool_s': 0.01, 'obs_chars': 58, 'kind': 'tool', 't': 30.38}
+06:42:20 scikit-learn__scikit-learn-14496 tool {'name': 'read_file', 'model_s': 1.19, 'tool_s': 0.0, 'obs_chars': 899, 'kind': 'tool', 't': 31.58}
+06:42:22 scikit-learn__scikit-learn-14496 edit_nomatch {'path': 'sklearn/cluster/optics_.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 33.83}
+06:42:22 scikit-learn__scikit-learn-14496 tool {'name': 'replace_in_file', 'model_s': 2.25, 'tool_s': 0.07, 'obs_chars': 750, 'kind': 'tool', 't': 33.9}
+06:42:25 scikit-learn__scikit-learn-14496 edit_nomatch {'path': 'sklearn/cluster/optics_.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 36.36}
+06:42:25 scikit-learn__scikit-learn-14496 tool {'name': 'replace_in_file', 'model_s': 2.46, 'tool_s': 0.04, 'obs_chars': 791, 'kind': 'tool', 't': 36.4}
+06:42:28 scikit-learn__scikit-learn-14496 edit_nomatch {'path': 'sklearn/cluster/optics_.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 38.96}
+06:42:28 scikit-learn__scikit-learn-14496 tool {'name': 'replace_in_file', 'model_s': 2.56, 'tool_s': 0.04, 'obs_chars': 750, 'kind': 'tool', 't': 39.0}
+06:42:30 scikit-learn__scikit-learn-14496 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 41.48}
+06:42:32 scikit-learn__scikit-learn-14496 edit_nomatch {'path': 'sklearn/cluster/optics_.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 43.58}
+06:42:32 scikit-learn__scikit-learn-14496 tool {'name': 'replace_in_file', 'model_s': 2.1, 'tool_s': 0.08, 'obs_chars': 750, 'kind': 'tool', 't': 43.66}
+06:42:35 scikit-learn__scikit-learn-14496 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 46.03}
+06:42:42 scikit-learn__scikit-learn-14496 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 7.1, 'kind': 'checks', 't': 53.82}
+06:42:42 scikit-learn__scikit-learn-14496 tool {'name': 'run_tests', 'model_s': 0.67, 'tool_s': 7.13, 'obs_chars': 57, 'kind': 'tool', 't': 53.82}
+06:42:43 scikit-learn__scikit-learn-14496 tool {'name': 'semantic_search', 'model_s': 1.05, 'tool_s': 0.02, 'obs_chars': 2816, 'kind': 'tool', 't': 54.89}
+06:42:45 scikit-learn__scikit-learn-14496 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 56.61}
+06:42:48 scikit-learn__scikit-learn-14496 edit_nomatch {'path': 'sklearn/cluster/optics_.py', 'found': 2, 'how': 'matched 2 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 59.17}
+06:42:48 scikit-learn__scikit-learn-14496 tool {'name': 'replace_in_file', 'model_s': 2.55, 'tool_s': 0.12, 'obs_chars': 750, 'kind': 'tool', 't': 59.29}
+06:42:50 scikit-learn__scikit-learn-14496 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 61.74}
+06:42:53 scikit-learn__scikit-learn-14496 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 63.92}
+06:42:53 scikit-learn__scikit-learn-14496 submit {'step': 15, 'kind': 'submit', 't': 64.45}
+06:42:57 DONE scikit-learn__scikit-learn-14496 patch_lines 0 err  wall 157
+06:43:37 scikit-learn__scikit-learn-15100 repro {'status': 'ALIGNED', 's': 17.5, 'kind': 'repro', 't': 17.6}
+06:43:49 scikit-learn__scikit-learn-15100 creg {'files': ['sklearn/feature_extraction/tests/test_text.py', 'sklearn/feature_extraction/tests/test_dict_vectorizer.py'], 'n_tests': 122, 'n_pass': 122, 's': 11.6, 'kind': 'creg', 't': 29.17}
+06:44:01 scikit-learn__scikit-learn-15100 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 12.4, 'kind': 'checks', 't': 41.52}
+06:44:07 scikit-learn__scikit-learn-15100 tool {'name': 'search_code', 'model_s': 2.62, 'tool_s': 3.63, 'obs_chars': 157, 'kind': 'tool', 't': 47.77}
+06:44:09 scikit-learn__scikit-learn-15100 tool {'name': 'read_file', 'model_s': 1.47, 'tool_s': 0.0, 'obs_chars': 840, 'kind': 'tool', 't': 49.24}
+06:44:21 scikit-learn__scikit-learn-15100 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 10.9, 'kind': 'checks', 't': 60.96}
+06:44:21 scikit-learn__scikit-learn-15100 tool {'name': 'run_tests', 'model_s': 0.86, 'tool_s': 10.86, 'obs_chars': 168, 'kind': 'tool', 't': 60.96}
+06:44:22 scikit-learn__scikit-learn-15100 tool {'name': 'search_code', 'model_s': 1.31, 'tool_s': 0.01, 'obs_chars': 84, 'kind': 'tool', 't': 62.28}
+06:44:23 scikit-learn__scikit-learn-15100 tool {'name': 'search_code', 'model_s': 1.24, 'tool_s': 0.03, 'obs_chars': 87, 'kind': 'tool', 't': 63.54}
+06:44:24 scikit-learn__scikit-learn-15100 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 64.77}
+06:44:37 scikit-learn__scikit-learn-15100 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 10.4, 'kind': 'checks', 't': 77.87}
+06:44:38 scikit-learn__scikit-learn-15100 edit_commit {'path': 'sklearn/feature_extraction/text.py', 'score': [1, 0, 1], 'kind': 'edit_commit', 't': 78.59}
+06:44:38 scikit-learn__scikit-learn-15100 tool {'name': 'replace_in_file', 'model_s': 1.84, 'tool_s': 11.99, 'obs_chars': 190, 'kind': 'tool', 't': 78.59}
+06:44:39 scikit-learn__scikit-learn-15100 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 79.8}
+06:44:41 scikit-learn__scikit-learn-15100 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 81.11}
+06:44:42 scikit-learn__scikit-learn-15100 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 82.2}
+06:44:43 scikit-learn__scikit-learn-15100 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 83.41}
+06:44:44 scikit-learn__scikit-learn-15100 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 84.51}
+06:44:46 sphinx-doc__sphinx-10466 repro {'status': 'BROKEN', 's': 31.3, 'kind': 'repro', 't': 31.31}
+06:44:48 DONE scikit-learn__scikit-learn-15100 patch_lines 13 err  wall 177
+06:44:49 sphinx-doc__sphinx-10466 creg {'files': ['tests/test_quickstart.py'], 'n_tests': 10, 'n_pass': 10, 's': 3.5, 'kind': 'creg', 't': 34.88}
+06:44:53 sphinx-doc__sphinx-10466 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 3.2, 'kind': 'checks', 't': 38.12}
+06:44:55 sphinx-doc__sphinx-10466 tool {'name': 'semantic_search', 'model_s': 2.47, 'tool_s': 0.01, 'obs_chars': 1123, 'kind': 'tool', 't': 40.61}
+06:44:56 sphinx-doc__sphinx-10466 tool {'name': 'search_code', 'model_s': 1.15, 'tool_s': 0.03, 'obs_chars': 64, 'kind': 'tool', 't': 41.79}
+06:44:57 sphinx-doc__sphinx-10466 tool {'name': 'read_file', 'model_s': 1.2, 'tool_s': 0.0, 'obs_chars': 1484, 'kind': 'tool', 't': 42.99}
+06:44:59 sphinx-doc__sphinx-10466 tool {'name': 'read_file', 'model_s': 1.34, 'tool_s': 0.0, 'obs_chars': 303, 'kind': 'tool', 't': 44.33}
+06:45:01 sphinx-doc__sphinx-10466 edit_nomatch {'path': 'sphinx/builders/gettext.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 46.95}
+06:45:01 sphinx-doc__sphinx-10466 tool {'name': 'replace_in_file', 'model_s': 2.62, 'tool_s': 0.03, 'obs_chars': 526, 'kind': 'tool', 't': 46.98}
+06:45:03 sphinx-doc__sphinx-10466 tool {'name': 'read_file', 'model_s': 1.25, 'tool_s': 0.0, 'obs_chars': 236, 'kind': 'tool', 't': 48.23}
+06:45:09 sphinx-doc__sphinx-10466 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 3.0, 'kind': 'checks', 't': 54.84}
+06:45:09 sphinx-doc__sphinx-10466 edit_commit {'path': 'sphinx/builders/gettext.py', 'score': [1, 0, 0], 'kind': 'edit_commit', 't': 54.88}
+06:45:09 sphinx-doc__sphinx-10466 tool {'name': 'replace_in_file', 'model_s': 2.63, 'tool_s': 4.02, 'obs_chars': 79, 'kind': 'tool', 't': 54.88}
+06:45:10 sphinx-doc__sphinx-10466 duplicate {'name': 'semantic_search', 'kind': 'duplicate', 't': 55.84}
+06:45:11 sphinx-doc__sphinx-10466 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 56.97}
+06:45:12 sphinx-doc__sphinx-10466 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 58.07}
+06:45:14 sphinx-doc__sphinx-10466 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 59.18}
+06:45:15 sphinx-doc__sphinx-10466 tool {'name': 'read_file', 'model_s': 1.14, 'tool_s': 0.0, 'obs_chars': 1222, 'kind': 'tool', 't': 60.32}
+06:45:16 sphinx-doc__sphinx-10466 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 61.67}
+06:45:17 sphinx-doc__sphinx-10466 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 63.01}
+06:45:21 DONE sphinx-doc__sphinx-10466 patch_lines 13 err  wall 144
+06:46:06 sphinx-doc__sphinx-7462 repro {'status': 'ALIGNED', 's': 8.3, 'kind': 'repro', 't': 8.35}
+06:46:06 sphinx-doc__sphinx-7462 creg {'files': [], 'n_tests': 0, 'n_pass': 0, 's': 0.0, 'kind': 'creg', 't': 8.37}
+06:46:07 sphinx-doc__sphinx-7462 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 0.9, 'kind': 'checks', 't': 9.28}
+06:46:09 sphinx-doc__sphinx-7462 tool {'name': 'search_code', 'model_s': 2.51, 'tool_s': 0.01, 'obs_chars': 58, 'kind': 'tool', 't': 11.8}
+06:46:10 sphinx-doc__sphinx-7462 tool {'name': 'read_file', 'model_s': 1.03, 'tool_s': 0.0, 'obs_chars': 2503, 'kind': 'tool', 't': 12.82}
+06:46:12 sphinx-doc__sphinx-7462 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 14.12}
+06:46:13 sphinx-doc__sphinx-7462 tool {'name': 'read_file', 'model_s': 1.56, 'tool_s': 0.0, 'obs_chars': 458, 'kind': 'tool', 't': 15.69}
+06:46:14 sphinx-doc__sphinx-7462 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 16.7}
+06:46:15 sphinx-doc__sphinx-7462 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 17.76}
+06:46:16 sphinx-doc__sphinx-7462 tool {'name': 'read_file', 'model_s': 1.11, 'tool_s': 0.0, 'obs_chars': 1441, 'kind': 'tool', 't': 18.88}
+06:46:17 sphinx-doc__sphinx-7462 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 20.06}
+06:46:19 sphinx-doc__sphinx-7462 tool {'name': 'read_file', 'model_s': 1.35, 'tool_s': 0.0, 'obs_chars': 345, 'kind': 'tool', 't': 21.41}
+06:46:20 sphinx-doc__sphinx-7462 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 22.41}
+06:46:21 sphinx-doc__sphinx-7462 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 23.41}
+06:46:26 DONE sphinx-doc__sphinx-7462 patch_lines 0 err  wall 98
+06:46:40 sphinx-doc__sphinx-8265 repro {'status': 'ALIGNED', 's': 10.2, 'kind': 'repro', 't': 10.2}
+06:46:46 sphinx-doc__sphinx-8265 creg {'files': ['tests/test_quickstart.py'], 'n_tests': 9, 'n_pass': 8, 's': 5.4, 'kind': 'creg', 't': 15.6}
+06:46:56 sphinx-doc__sphinx-8265 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 10.0, 'kind': 'checks', 't': 25.58}
+06:46:59 sphinx-doc__sphinx-8265 tool {'name': 'semantic_search', 'model_s': 3.38, 'tool_s': 0.01, 'obs_chars': 2214, 'kind': 'tool', 't': 28.97}
+06:47:00 sphinx-doc__sphinx-8265 tool {'name': 'semantic_search', 'model_s': 1.24, 'tool_s': 0.01, 'obs_chars': 2551, 'kind': 'tool', 't': 30.21}
+06:47:02 sphinx-doc__sphinx-8265 tool {'name': 'search_code', 'model_s': 1.95, 'tool_s': 0.03, 'obs_chars': 98, 'kind': 'tool', 't': 32.19}
+06:47:04 sphinx-doc__sphinx-8265 tool {'name': 'semantic_search', 'model_s': 1.21, 'tool_s': 0.01, 'obs_chars': 2817, 'kind': 'tool', 't': 33.41}
+06:47:05 sphinx-doc__sphinx-8265 tool {'name': 'semantic_search', 'model_s': 1.38, 'tool_s': 0.02, 'obs_chars': 2803, 'kind': 'tool', 't': 34.81}
+06:47:07 sphinx-doc__sphinx-8265 tool {'name': 'read_file', 'model_s': 2.07, 'tool_s': 0.0, 'obs_chars': 2231, 'kind': 'tool', 't': 36.88}
+06:47:09 sphinx-doc__sphinx-8265 tool {'name': 'search_code', 'model_s': 2.29, 'tool_s': 0.02, 'obs_chars': 98, 'kind': 'tool', 't': 39.18}
+06:47:11 sphinx-doc__sphinx-8265 tool {'name': 'semantic_search', 'model_s': 1.35, 'tool_s': 0.02, 'obs_chars': 2689, 'kind': 'tool', 't': 40.55}
+06:47:13 sphinx-doc__sphinx-8265 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 42.53}
+06:47:14 sphinx-doc__sphinx-8265 tool {'name': 'semantic_search', 'model_s': 1.3, 'tool_s': 0.01, 'obs_chars': 2135, 'kind': 'tool', 't': 43.85}
+06:47:15 sphinx-doc__sphinx-8265 tool {'name': 'semantic_search', 'model_s': 1.31, 'tool_s': 0.01, 'obs_chars': 2813, 'kind': 'tool', 't': 45.17}
+06:47:18 sphinx-doc__sphinx-8265 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 47.48}
+06:47:19 sphinx-doc__sphinx-8265 tool {'name': 'read_file', 'model_s': 1.62, 'tool_s': 0.0, 'obs_chars': 4077, 'kind': 'tool', 't': 49.11}
+06:47:21 sphinx-doc__sphinx-8265 tool {'name': 'semantic_search', 'model_s': 1.61, 'tool_s': 0.01, 'obs_chars': 2689, 'kind': 'tool', 't': 50.73}
+06:47:23 sphinx-doc__sphinx-8265 tool {'name': 'read_file', 'model_s': 2.2, 'tool_s': 0.0, 'obs_chars': 3754, 'kind': 'tool', 't': 52.93}
+06:47:26 DONE sphinx-doc__sphinx-8265 patch_lines 0 err  wall 125
+06:47:57 sphinx-doc__sphinx-8595 repro {'status': 'PASSES_ON_BUGGY', 's': 21.1, 'kind': 'repro', 't': 21.13}
+06:47:57 sphinx-doc__sphinx-8595 creg {'files': [], 'n_tests': 0, 'n_pass': 0, 's': 0.0, 'kind': 'creg', 't': 21.15}
+06:47:59 sphinx-doc__sphinx-8595 tool {'name': 'semantic_search', 'model_s': 2.05, 'tool_s': 0.01, 'obs_chars': 838, 'kind': 'tool', 't': 23.21}
+06:48:01 sphinx-doc__sphinx-8595 tool {'name': 'search_code', 'model_s': 1.16, 'tool_s': 0.01, 'obs_chars': 106, 'kind': 'tool', 't': 24.38}
+06:48:02 sphinx-doc__sphinx-8595 tool {'name': 'read_file', 'model_s': 1.21, 'tool_s': 0.0, 'obs_chars': 3652, 'kind': 'tool', 't': 25.59}
+06:48:06 sphinx-doc__sphinx-8595 tool {'name': 'semantic_search', 'model_s': 3.96, 'tool_s': 0.01, 'obs_chars': 2079, 'kind': 'tool', 't': 29.57}
+06:48:08 sphinx-doc__sphinx-8595 tool {'name': 'read_file', 'model_s': 2.57, 'tool_s': 0.0, 'obs_chars': 4077, 'kind': 'tool', 't': 32.14}
+06:48:10 sphinx-doc__sphinx-8595 tool {'name': 'read_file', 'model_s': 1.99, 'tool_s': 0.0, 'obs_chars': 3829, 'kind': 'tool', 't': 34.13}
+06:48:12 sphinx-doc__sphinx-8595 tool {'name': 'semantic_search', 'model_s': 1.91, 'tool_s': 0.02, 'obs_chars': 2821, 'kind': 'tool', 't': 36.05}
+06:48:14 sphinx-doc__sphinx-8595 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 38.18}
+06:48:16 sphinx-doc__sphinx-8595 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 39.8}
+06:48:17 sphinx-doc__sphinx-8595 tool {'name': 'semantic_search', 'model_s': 0.97, 'tool_s': 0.01, 'obs_chars': 939, 'kind': 'tool', 't': 40.78}
+06:48:18 sphinx-doc__sphinx-8595 tool {'name': 'read_file', 'model_s': 1.4, 'tool_s': 0.0, 'obs_chars': 2451, 'kind': 'tool', 't': 42.18}
+06:48:24 sphinx-doc__sphinx-8595 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 47.27}
+06:48:25 sphinx-doc__sphinx-8595 tool {'name': 'read_file', 'model_s': 1.67, 'tool_s': 0.03, 'obs_chars': 1829, 'kind': 'tool', 't': 48.98}
+06:48:27 sphinx-doc__sphinx-8595 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 50.89}
+06:48:29 sphinx-doc__sphinx-8595 tool {'name': 'read_file', 'model_s': 1.58, 'tool_s': 0.0, 'obs_chars': 4794, 'kind': 'tool', 't': 52.48}
+06:48:31 DONE sphinx-doc__sphinx-8595 patch_lines 0 err  wall 125
+06:49:02 sphinx-doc__sphinx-9229 repro {'status': 'BROKEN', 's': 33.5, 'kind': 'repro', 't': 33.52}
+06:49:02 sphinx-doc__sphinx-9229 creg {'files': [], 'n_tests': 0, 'n_pass': 0, 's': 0.0, 'kind': 'creg', 't': 33.54}
+06:49:05 sphinx-doc__sphinx-9229 tool {'name': 'semantic_search', 'model_s': 2.35, 'tool_s': 0.01, 'obs_chars': 1984, 'kind': 'tool', 't': 35.91}
+06:49:09 sphinx-doc__sphinx-9229 tool {'name': 'semantic_search', 'model_s': 4.11, 'tool_s': 0.02, 'obs_chars': 1984, 'kind': 'tool', 't': 40.04}
+06:49:10 sphinx-doc__sphinx-9229 tool {'name': 'read_file', 'model_s': 1.51, 'tool_s': 0.0, 'obs_chars': 3540, 'kind': 'tool', 't': 41.55}
+06:49:12 sphinx-doc__sphinx-9229 tool {'name': 'semantic_search', 'model_s': 1.73, 'tool_s': 0.02, 'obs_chars': 1539, 'kind': 'tool', 't': 43.29}
+06:49:14 sphinx-doc__sphinx-9229 tool {'name': 'semantic_search', 'model_s': 1.74, 'tool_s': 0.02, 'obs_chars': 443, 'kind': 'tool', 't': 45.05}
+06:49:15 sphinx-doc__sphinx-9229 tool {'name': 'read_file', 'model_s': 1.39, 'tool_s': 0.0, 'obs_chars': 8149, 'kind': 'tool', 't': 46.44}
+06:49:17 sphinx-doc__sphinx-9229 tool {'name': 'semantic_search', 'model_s': 1.49, 'tool_s': 0.02, 'obs_chars': 1539, 'kind': 'tool', 't': 47.94}
+06:49:18 sphinx-doc__sphinx-9229 tool {'name': 'search_code', 'model_s': 1.71, 'tool_s': 0.03, 'obs_chars': 554, 'kind': 'tool', 't': 49.68}
+06:49:20 sphinx-doc__sphinx-9229 tool {'name': 'read_file', 'model_s': 1.43, 'tool_s': 0.0, 'obs_chars': 39, 'kind': 'tool', 't': 51.11}
+06:49:22 sphinx-doc__sphinx-9229 tool {'name': 'semantic_search', 'model_s': 0.98, 'tool_s': 0.81, 'obs_chars': 2319, 'kind': 'tool', 't': 52.9}
+06:49:23 sphinx-doc__sphinx-9229 tool {'name': 'read_file', 'model_s': 1.58, 'tool_s': 0.07, 'obs_chars': 39, 'kind': 'tool', 't': 54.55}
+06:49:25 sphinx-doc__sphinx-9229 tool {'name': 'search_code', 'model_s': 1.35, 'tool_s': 0.04, 'obs_chars': 554, 'kind': 'tool', 't': 55.96}
+06:49:26 sphinx-doc__sphinx-9229 duplicate {'name': 'semantic_search', 'kind': 'duplicate', 't': 56.92}
+06:49:27 sphinx-doc__sphinx-9229 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 58.14}
+06:49:28 sphinx-doc__sphinx-9229 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 59.07}
+06:49:33 DONE sphinx-doc__sphinx-9229 patch_lines 0 err  wall 127
+06:49:57 sympy__sympy-12419 repro {'status': 'ALIGNED', 's': 13.3, 'kind': 'repro', 't': 13.42}
+06:49:59 sympy__sympy-12419 creg {'files': ['sympy/matrices/expressions/tests/test_matmul.py', 'sympy/matrices/expressions/tests/test_determinant.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.6, 'kind': 'creg', 't': 15.0}
+06:50:02 sympy__sympy-12419 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.4, 'kind': 'checks', 't': 18.45}
+06:50:09 sympy__sympy-12419 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.8, 'kind': 'checks', 't': 24.78}
+06:50:09 sympy__sympy-12419 tool {'name': 'run_tests', 'model_s': 2.57, 'tool_s': 3.76, 'obs_chars': 561, 'kind': 'tool', 't': 24.78}
+06:50:15 sympy__sympy-12419 tool {'name': 'search_code', 'model_s': 5.97, 'tool_s': 0.03, 'obs_chars': 108, 'kind': 'tool', 't': 30.78}
+06:50:16 sympy__sympy-12419 tool {'name': 'search_code', 'model_s': 1.15, 'tool_s': 0.02, 'obs_chars': 34, 'kind': 'tool', 't': 31.96}
+06:50:17 sympy__sympy-12419 tool {'name': 'semantic_search', 'model_s': 0.96, 'tool_s': 0.04, 'obs_chars': 1763, 'kind': 'tool', 't': 32.95}
+06:50:18 sympy__sympy-12419 tool {'name': 'read_file', 'model_s': 1.66, 'tool_s': 0.0, 'obs_chars': 6483, 'kind': 'tool', 't': 34.61}
+06:50:20 sympy__sympy-12419 tool {'name': 'semantic_search', 'model_s': 1.82, 'tool_s': 0.05, 'obs_chars': 432, 'kind': 'tool', 't': 36.48}
+06:50:23 sympy__sympy-12419 tool {'name': 'search_code', 'model_s': 2.38, 'tool_s': 0.06, 'obs_chars': 96, 'kind': 'tool', 't': 38.92}
+06:50:24 sympy__sympy-12419 tool {'name': 'read_file', 'model_s': 1.29, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 40.21}
+06:50:25 sympy__sympy-12419 tool {'name': 'semantic_search', 'model_s': 0.96, 'tool_s': 0.03, 'obs_chars': 826, 'kind': 'tool', 't': 41.2}
+06:50:26 sympy__sympy-12419 tool {'name': 'semantic_search', 'model_s': 1.15, 'tool_s': 0.03, 'obs_chars': 432, 'kind': 'tool', 't': 42.38}
+06:50:28 sympy__sympy-12419 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 44.28}
+06:50:30 sympy__sympy-12419 tool {'name': 'read_file', 'model_s': 1.37, 'tool_s': 0.02, 'obs_chars': 19, 'kind': 'tool', 't': 45.67}
+06:50:32 sympy__sympy-12419 tool {'name': 'semantic_search', 'model_s': 1.22, 'tool_s': 1.6, 'obs_chars': 826, 'kind': 'tool', 't': 48.52}
+06:50:34 sympy__sympy-12419 tool {'name': 'search_code', 'model_s': 1.32, 'tool_s': 0.15, 'obs_chars': 66, 'kind': 'tool', 't': 49.99}
+06:50:35 sympy__sympy-12419 tool {'name': 'read_file', 'model_s': 1.53, 'tool_s': 0.0, 'obs_chars': 19, 'kind': 'tool', 't': 51.54}
+06:50:39 DONE sympy__sympy-12419 patch_lines 0 err  wall 128
+06:51:03 sympy__sympy-12489 repro {'status': 'ALIGNED', 's': 14.5, 'kind': 'repro', 't': 14.55}
+06:51:05 sympy__sympy-12489 creg {'files': ['sympy/combinatorics/tests/test_named_groups.py', 'sympy/combinatorics/tests/test_permutations.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.7, 'kind': 'creg', 't': 16.28}
+06:51:09 sympy__sympy-12489 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.5, 'kind': 'checks', 't': 19.75}
+06:51:11 sympy__sympy-12489 tool {'name': 'read_file', 'model_s': 2.79, 'tool_s': 0.0, 'obs_chars': 5536, 'kind': 'tool', 't': 22.55}
+06:51:18 sympy__sympy-12489 tool {'name': 'search_code', 'model_s': 6.46, 'tool_s': 0.03, 'obs_chars': 387, 'kind': 'tool', 't': 29.04}
+06:51:19 sympy__sympy-12489 tool {'name': 'read_file', 'model_s': 1.24, 'tool_s': 0.0, 'obs_chars': 956, 'kind': 'tool', 't': 30.28}
+06:51:20 sympy__sympy-12489 tool {'name': 'search_code', 'model_s': 1.25, 'tool_s': 0.03, 'obs_chars': 75, 'kind': 'tool', 't': 31.55}
+06:51:22 sympy__sympy-12489 tool {'name': 'read_file', 'model_s': 1.4, 'tool_s': 0.0, 'obs_chars': 5238, 'kind': 'tool', 't': 32.95}
+06:51:24 sympy__sympy-12489 tool {'name': 'read_file', 'model_s': 1.66, 'tool_s': 0.0, 'obs_chars': 6914, 'kind': 'tool', 't': 34.61}
+06:51:26 sympy__sympy-12489 tool {'name': 'search_code', 'model_s': 2.3, 'tool_s': 0.03, 'obs_chars': 81, 'kind': 'tool', 't': 36.93}
+06:51:28 sympy__sympy-12489 tool {'name': 'read_file', 'model_s': 1.79, 'tool_s': 0.0, 'obs_chars': 2887, 'kind': 'tool', 't': 38.72}
+06:51:30 sympy__sympy-12489 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 40.64}
+06:51:43 sympy__sympy-12489 checks {'repro': 'OTHER', 'regression_clean': True, 'broken': 0, 's': 6.2, 'kind': 'checks', 't': 54.54}
+06:51:47 sympy__sympy-12489 edit_rollback {'path': 'sympy/combinatorics/permutations.py', 'reason': 'score', 'score': [1, 0, 0], 'best': [1, 0, 1], 'kind': 'edit_rollback', 't': 57.56}
+06:51:47 sympy__sympy-12489 tool {'name': 'replace_in_file', 'model_s': 3.82, 'tool_s': 13.11, 'obs_chars': 585, 'kind': 'tool', 't': 57.56}
+06:51:53 sympy__sympy-12489 checks {'repro': 'OTHER', 'regression_clean': True, 'broken': 0, 's': 3.5, 'kind': 'checks', 't': 64.34}
+06:51:53 sympy__sympy-12489 edit_rollback {'path': 'sympy/combinatorics/permutations.py', 'reason': 'score', 'score': [1, 0, 0], 'best': [1, 0, 1], 'kind': 'edit_rollback', 't': 64.54}
+06:51:53 sympy__sympy-12489 tool {'name': 'replace_in_file', 'model_s': 1.93, 'tool_s': 5.05, 'obs_chars': 585, 'kind': 'tool', 't': 64.54}
+06:51:55 sympy__sympy-12489 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 66.12}
+06:52:02 sympy__sympy-12489 checks {'repro': 'OTHER', 'regression_clean': True, 'broken': 0, 's': 3.2, 'kind': 'checks', 't': 73.14}
+06:52:02 sympy__sympy-12489 edit_rollback {'path': 'sympy/combinatorics/permutations.py', 'reason': 'score', 'score': [1, 0, 0], 'best': [1, 0, 1], 'kind': 'edit_rollback', 't': 73.31}
+06:52:02 sympy__sympy-12489 tool {'name': 'replace_in_file', 'model_s': 2.96, 'tool_s': 4.22, 'obs_chars': 585, 'kind': 'tool', 't': 73.31}
+06:52:04 sympy__sympy-12489 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 74.76}
+06:52:10 sympy__sympy-12489 checks {'repro': 'OTHER', 'regression_clean': True, 'broken': 0, 's': 3.3, 'kind': 'checks', 't': 80.72}
+06:52:10 sympy__sympy-12489 edit_rollback {'path': 'sympy/combinatorics/permutations.py', 'reason': 'score', 'score': [1, 0, 0], 'best': [1, 0, 1], 'kind': 'edit_rollback', 't': 80.88}
+06:52:10 sympy__sympy-12489 tool {'name': 'replace_in_file', 'model_s': 1.81, 'tool_s': 4.32, 'obs_chars': 585, 'kind': 'tool', 't': 80.88}
+06:52:12 DONE sympy__sympy-12489 patch_lines 0 err  wall 159
+06:52:18 sympy__sympy-13798 repro {'status': 'PASSES_ON_BUGGY', 's': 20.6, 'kind': 'repro', 't': 20.66}
+06:52:20 sympy__sympy-13798 creg {'files': ['sympy/stats/tests/test_rv.py', 'sympy/printing/tests/test_latex.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.6, 'kind': 'creg', 't': 22.22}
+06:52:21 sympy__sympy-13798 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 1.5, 'kind': 'checks', 't': 23.75}
+06:52:24 sympy__sympy-13798 tool {'name': 'search_code', 'model_s': 2.63, 'tool_s': 0.01, 'obs_chars': 179, 'kind': 'tool', 't': 26.39}
+06:52:25 sympy__sympy-13798 tool {'name': 'read_file', 'model_s': 1.29, 'tool_s': 0.0, 'obs_chars': 5817, 'kind': 'tool', 't': 27.68}
+06:52:27 sympy__sympy-13798 tool {'name': 'search_code', 'model_s': 1.54, 'tool_s': 0.0, 'obs_chars': 168, 'kind': 'tool', 't': 29.22}
+06:52:28 sympy__sympy-13798 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 30.81}
+06:52:30 sympy__sympy-13798 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 32.04}
+06:52:31 sympy__sympy-13798 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 33.02}
+06:52:32 sympy__sympy-13798 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 33.97}
+06:52:33 sympy__sympy-13798 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 34.95}
+06:52:34 sympy__sympy-13798 tool {'name': 'read_file', 'model_s': 1.2, 'tool_s': 0.0, 'obs_chars': 7827, 'kind': 'tool', 't': 36.15}
+06:52:35 sympy__sympy-13798 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 37.78}
+06:52:38 DONE sympy__sympy-13798 patch_lines 0 err  wall 119
+06:53:47 sympy__sympy-14711 repro {'status': 'ALIGNED', 's': 20.6, 'kind': 'repro', 't': 20.65}
+06:53:56 sympy__sympy-14711 creg {'files': ['sympy/vector/tests/test_dyadic.py', 'sympy/vector/tests/test_vector.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.5, 'kind': 'creg', 't': 29.31}
+06:54:00 sympy__sympy-14711 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.8, 'kind': 'checks', 't': 33.1}
+06:54:06 sympy__sympy-14711 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.9, 'kind': 'checks', 't': 39.07}
+06:54:06 sympy__sympy-14711 tool {'name': 'run_tests', 'model_s': 2.09, 'tool_s': 3.88, 'obs_chars': 561, 'kind': 'tool', 't': 39.07}
+06:54:07 sympy__sympy-14711 tool {'name': 'search_code', 'model_s': 1.26, 'tool_s': 0.03, 'obs_chars': 76, 'kind': 'tool', 't': 40.37}
+06:54:08 sympy__sympy-14711 tool {'name': 'read_file', 'model_s': 1.13, 'tool_s': 0.0, 'obs_chars': 7491, 'kind': 'tool', 't': 41.5}
+06:54:10 sympy__sympy-14711 tool {'name': 'read_file', 'model_s': 1.7, 'tool_s': 0.0, 'obs_chars': 1551, 'kind': 'tool', 't': 43.2}
+06:54:12 sympy__sympy-14711 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 45.15}
+06:54:13 sympy__sympy-14711 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 46.62}
+06:54:14 sympy__sympy-14711 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 47.79}
+06:54:16 sympy__sympy-14711 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 48.93}
+06:54:16 sympy__sympy-14711 tool {'name': 'get_definition', 'model_s': 0.65, 'tool_s': 0.0, 'obs_chars': 3415, 'kind': 'tool', 't': 49.58}
+06:54:18 sympy__sympy-14711 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 51.36}
+06:54:20 sympy__sympy-14711 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 53.19}
+06:54:21 sympy__sympy-15599 repro {'status': 'ALIGNED', 's': 15.2, 'kind': 'repro', 't': 15.3}
+06:54:23 DONE sympy__sympy-14711 patch_lines 0 err  wall 130
+06:54:23 sympy__sympy-15599 creg {'files': ['sympy/ntheory/tests/test_modular.py', 'sympy/physics/quantum/tests/test_qapply.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.6, 'kind': 'creg', 't': 16.94}
+06:54:26 sympy__sympy-15599 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.6, 'kind': 'checks', 't': 20.53}
+06:54:29 sympy__sympy-15599 tool {'name': 'search_code', 'model_s': 3.18, 'tool_s': 0.03, 'obs_chars': 49, 'kind': 'tool', 't': 23.74}
+06:54:31 sympy__sympy-15599 tool {'name': 'search_code', 'model_s': 1.19, 'tool_s': 0.03, 'obs_chars': 61, 'kind': 'tool', 't': 24.96}
+06:54:32 sympy__sympy-15599 tool {'name': 'search_code', 'model_s': 1.06, 'tool_s': 0.03, 'obs_chars': 50, 'kind': 'tool', 't': 26.04}
+06:54:33 sympy__sympy-15599 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 27.12}
+06:54:34 sympy__sympy-15599 tool {'name': 'read_file', 'model_s': 1.28, 'tool_s': 0.0, 'obs_chars': 1194, 'kind': 'tool', 't': 28.41}
+06:54:35 sympy__sympy-15599 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 29.88}
+06:54:37 sympy__sympy-15599 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 31.35}
+06:54:38 sympy__sympy-15599 tool {'name': 'search_code', 'model_s': 1.48, 'tool_s': 0.03, 'obs_chars': 94, 'kind': 'tool', 't': 32.86}
+06:54:40 sympy__sympy-15599 tool {'name': 'search_code', 'model_s': 1.65, 'tool_s': 0.03, 'obs_chars': 107, 'kind': 'tool', 't': 34.55}
+06:54:42 sympy__sympy-15599 tool {'name': 'search_code', 'model_s': 1.48, 'tool_s': 0.03, 'obs_chars': 93, 'kind': 'tool', 't': 36.06}
+06:54:43 sympy__sympy-15599 tool {'name': 'search_code', 'model_s': 1.48, 'tool_s': 0.04, 'obs_chars': 88, 'kind': 'tool', 't': 37.57}
+06:54:44 sympy__sympy-15599 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 38.81}
+06:54:46 sympy__sympy-15599 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 40.04}
+06:54:47 sympy__sympy-15599 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 41.27}
+06:54:50 DONE sympy__sympy-15599 patch_lines 0 err  wall 131
+06:56:15 sympy__sympy-17630 repro {'status': 'ALIGNED', 's': 12.9, 'kind': 'repro', 't': 14.69}
+06:56:16 sympy__sympy-17630 creg {'files': ['sympy/matrices/expressions/tests/test_matexpr.py', 'sympy/matrices/expressions/tests/test_blockmatrix.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.6, 'kind': 'creg', 't': 16.29}
+06:56:20 sympy__sympy-17630 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.6, 'kind': 'checks', 't': 19.9}
+06:56:26 sympy__sympy-17630 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.5, 'kind': 'checks', 't': 25.59}
+06:56:26 sympy__sympy-17630 tool {'name': 'run_tests', 'model_s': 2.24, 'tool_s': 3.45, 'obs_chars': 561, 'kind': 'tool', 't': 25.59}
+06:56:27 sympy__sympy-17630 tool {'name': 'semantic_search', 'model_s': 0.98, 'tool_s': 0.03, 'obs_chars': 1335, 'kind': 'tool', 't': 26.6}
+06:56:28 sympy__sympy-17630 tool {'name': 'read_file', 'model_s': 1.48, 'tool_s': 0.0, 'obs_chars': 722, 'kind': 'tool', 't': 28.08}
+06:56:30 sympy__sympy-17630 tool {'name': 'search_code', 'model_s': 1.55, 'tool_s': 0.03, 'obs_chars': 104, 'kind': 'tool', 't': 29.67}
+06:56:31 sympy__sympy-17630 tool {'name': 'search_code', 'model_s': 1.32, 'tool_s': 0.03, 'obs_chars': 100, 'kind': 'tool', 't': 31.02}
+06:56:32 sympy__sympy-17630 tool {'name': 'search_code', 'model_s': 1.24, 'tool_s': 0.01, 'obs_chars': 127, 'kind': 'tool', 't': 32.27}
+06:56:34 sympy__sympy-17630 tool {'name': 'read_file', 'model_s': 1.28, 'tool_s': 0.0, 'obs_chars': 319, 'kind': 'tool', 't': 33.55}
+06:56:38 sympy__sympy-17630 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.7, 'kind': 'checks', 't': 37.78}
+06:56:38 sympy__sympy-17630 tool {'name': 'run_tests', 'model_s': 0.54, 'tool_s': 3.68, 'obs_chars': 561, 'kind': 'tool', 't': 37.78}
+06:56:39 sympy__sympy-17630 tool {'name': 'search_code', 'model_s': 1.48, 'tool_s': 0.03, 'obs_chars': 99, 'kind': 'tool', 't': 39.29}
+06:56:40 sympy__sympy-18211 repro {'status': 'PASSES_ON_BUGGY', 's': 21.7, 'kind': 'repro', 't': 21.83}
+06:56:41 sympy__sympy-17630 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 40.62}
+06:56:41 sympy__sympy-18211 creg {'files': ['sympy/calculus/tests/test_util.py', 'sympy/geometry/tests/test_util.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.4, 'kind': 'creg', 't': 23.23}
+06:56:42 sympy__sympy-17630 tool {'name': 'search_code', 'model_s': 1.31, 'tool_s': 0.01, 'obs_chars': 128, 'kind': 'tool', 't': 41.94}
+06:56:43 sympy__sympy-18211 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 1.4, 'kind': 'checks', 't': 24.67}
+06:56:43 sympy__sympy-17630 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 43.23}
+06:56:45 sympy__sympy-17630 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 44.5}
+06:56:45 sympy__sympy-18211 tool {'name': 'search_code', 'model_s': 2.46, 'tool_s': 0.0, 'obs_chars': 173, 'kind': 'tool', 't': 27.14}
+06:56:46 sympy__sympy-17630 tool {'name': 'read_file', 'model_s': 1.24, 'tool_s': 0.0, 'obs_chars': 915, 'kind': 'tool', 't': 45.74}
+06:56:46 sympy__sympy-18211 tool {'name': 'search_code', 'model_s': 0.99, 'tool_s': 0.0, 'obs_chars': 284, 'kind': 'tool', 't': 28.13}
+06:56:47 sympy__sympy-17630 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 47.13}
+06:56:48 sympy__sympy-18211 tool {'name': 'read_file', 'model_s': 1.31, 'tool_s': 0.0, 'obs_chars': 2634, 'kind': 'tool', 't': 29.44}
+06:56:49 sympy__sympy-18211 tool {'name': 'read_file', 'model_s': 1.67, 'tool_s': 0.0, 'obs_chars': 7634, 'kind': 'tool', 't': 31.12}
+06:56:49 DONE sympy__sympy-17630 patch_lines 0 err  wall 147
+06:56:53 sympy__sympy-18211 edit_fuzzy {'path': 'sympy/solvers/solveset.py', 'how': 'whitespace-normalised match', 'kind': 'edit_fuzzy', 't': 34.53}
+06:56:55 sympy__sympy-18211 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 1.5, 'kind': 'checks', 't': 37.02}
+06:56:55 sympy__sympy-18211 edit_commit {'path': 'sympy/solvers/solveset.py', 'score': [1, 0, 0], 'kind': 'edit_commit', 't': 37.06}
+06:56:55 sympy__sympy-18211 tool {'name': 'replace_in_file', 'model_s': 3.41, 'tool_s': 2.53, 'obs_chars': 77, 'kind': 'tool', 't': 37.06}
+06:56:56 sympy__sympy-18211 submit {'step': 6, 'kind': 'submit', 't': 38.14}
+06:56:59 DONE sympy__sympy-18211 patch_lines 13 err  wall 129
+06:58:46 sympy__sympy-19783 repro {'status': 'PASSES_ON_BUGGY', 's': 17.6, 'kind': 'repro', 't': 21.72}
+06:58:47 sympy__sympy-19783 creg {'files': ['sympy/physics/quantum/tests/test_sho1d.py', 'sympy/physics/quantum/tests/test_dagger.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.6, 'kind': 'creg', 't': 23.29}
+06:58:49 sympy__sympy-21930 repro {'status': 'PASSES_ON_BUGGY', 's': 17.9, 'kind': 'repro', 't': 18.04}
+06:58:49 sympy__sympy-19783 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 1.6, 'kind': 'checks', 't': 24.87}
+06:58:50 sympy__sympy-21930 creg {'files': ['sympy/physics/tests/test_secondquant.py', 'sympy/physics/quantum/tests/test_commutator.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.4, 'kind': 'creg', 't': 19.48}
+06:58:52 sympy__sympy-21930 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 1.6, 'kind': 'checks', 't': 21.09}
+06:58:53 sympy__sympy-19783 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 1.6, 'kind': 'checks', 't': 28.46}
+06:58:53 sympy__sympy-19783 tool {'name': 'run_tests', 'model_s': 1.98, 'tool_s': 1.61, 'obs_chars': 55, 'kind': 'tool', 't': 28.46}
+06:58:53 sympy__sympy-19783 tool {'name': 'semantic_search', 'model_s': 0.91, 'tool_s': 0.02, 'obs_chars': 2823, 'kind': 'tool', 't': 29.39}
+06:58:54 sympy__sympy-21930 tool {'name': 'semantic_search', 'model_s': 2.55, 'tool_s': 0.01, 'obs_chars': 837, 'kind': 'tool', 't': 23.65}
+06:58:55 sympy__sympy-19783 tool {'name': 'search_code', 'model_s': 1.5, 'tool_s': 0.03, 'obs_chars': 84, 'kind': 'tool', 't': 30.92}
+06:58:56 sympy__sympy-21930 tool {'name': 'search_code', 'model_s': 1.35, 'tool_s': 0.03, 'obs_chars': 100, 'kind': 'tool', 't': 25.03}
+06:58:56 sympy__sympy-19783 tool {'name': 'search_code', 'model_s': 1.44, 'tool_s': 0.03, 'obs_chars': 82, 'kind': 'tool', 't': 32.39}
+06:58:57 sympy__sympy-21930 tool {'name': 'search_code', 'model_s': 1.03, 'tool_s': 0.03, 'obs_chars': 61, 'kind': 'tool', 't': 26.09}
+06:58:58 sympy__sympy-19783 tool {'name': 'read_file', 'model_s': 1.15, 'tool_s': 0.0, 'obs_chars': 1098, 'kind': 'tool', 't': 33.54}
+06:58:58 sympy__sympy-21930 tool {'name': 'search_code', 'model_s': 0.93, 'tool_s': 0.03, 'obs_chars': 2500, 'kind': 'tool', 't': 27.05}
+06:58:59 sympy__sympy-19783 tool {'name': 'semantic_search', 'model_s': 0.95, 'tool_s': 0.02, 'obs_chars': 2409, 'kind': 'tool', 't': 34.51}
+06:58:59 sympy__sympy-21930 tool {'name': 'read_file', 'model_s': 1.56, 'tool_s': 0.0, 'obs_chars': 7227, 'kind': 'tool', 't': 28.61}
+06:59:00 sympy__sympy-19783 tool {'name': 'read_file', 'model_s': 1.64, 'tool_s': 0.0, 'obs_chars': 2635, 'kind': 'tool', 't': 36.16}
+06:59:02 sympy__sympy-21930 tool {'name': 'semantic_search', 'model_s': 2.1, 'tool_s': 0.01, 'obs_chars': 317, 'kind': 'tool', 't': 30.72}
+06:59:02 sympy__sympy-19783 tool {'name': 'read_file', 'model_s': 1.95, 'tool_s': 0.0, 'obs_chars': 1873, 'kind': 'tool', 't': 38.1}
+06:59:03 sympy__sympy-21930 tool {'name': 'read_file', 'model_s': 1.92, 'tool_s': 0.0, 'obs_chars': 919, 'kind': 'tool', 't': 32.65}
+06:59:04 sympy__sympy-19783 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 40.06}
+06:59:05 sympy__sympy-21930 tool {'name': 'search_code', 'model_s': 1.21, 'tool_s': 0.0, 'obs_chars': 146, 'kind': 'tool', 't': 33.86}
+06:59:05 sympy__sympy-19783 tool {'name': 'semantic_search', 'model_s': 1.2, 'tool_s': 0.02, 'obs_chars': 2818, 'kind': 'tool', 't': 41.28}
+06:59:06 sympy__sympy-21930 tool {'name': 'read_file', 'model_s': 1.35, 'tool_s': 0.0, 'obs_chars': 5582, 'kind': 'tool', 't': 35.21}
+06:59:07 sympy__sympy-19783 tool {'name': 'read_file', 'model_s': 1.57, 'tool_s': 0.0, 'obs_chars': 6749, 'kind': 'tool', 't': 42.85}
+06:59:08 sympy__sympy-21930 tool {'name': 'read_file', 'model_s': 1.82, 'tool_s': 0.0, 'obs_chars': 3476, 'kind': 'tool', 't': 37.03}
+06:59:10 sympy__sympy-19783 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 1.5, 'kind': 'checks', 't': 45.74}
+06:59:10 sympy__sympy-19783 tool {'name': 'run_tests', 'model_s': 1.38, 'tool_s': 1.5, 'obs_chars': 55, 'kind': 'tool', 't': 45.74}
+06:59:10 sympy__sympy-21930 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 39.23}
+06:59:11 sympy__sympy-19783 tool {'name': 'semantic_search', 'model_s': 1.37, 'tool_s': 0.02, 'obs_chars': 2409, 'kind': 'tool', 't': 47.13}
+06:59:12 sympy__sympy-21930 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 41.12}
+06:59:13 sympy__sympy-19783 tool {'name': 'read_file', 'model_s': 1.53, 'tool_s': 0.0, 'obs_chars': 4171, 'kind': 'tool', 't': 48.66}
+06:59:13 sympy__sympy-21930 tool {'name': 'semantic_search', 'model_s': 0.9, 'tool_s': 0.05, 'obs_chars': 420, 'kind': 'tool', 't': 42.06}
+06:59:14 sympy__sympy-21930 tool {'name': 'read_file', 'model_s': 1.36, 'tool_s': 0.0, 'obs_chars': 2851, 'kind': 'tool', 't': 43.42}
+06:59:15 sympy__sympy-19783 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 50.62}
+06:59:16 sympy__sympy-21930 tool {'name': 'read_file', 'model_s': 1.85, 'tool_s': 0.0, 'obs_chars': 373, 'kind': 'tool', 't': 45.27}
+06:59:17 DONE sympy__sympy-19783 patch_lines 0 err  wall 148
+06:59:19 DONE sympy__sympy-21930 patch_lines 0 err  wall 140
+07:01:07 sympy__sympy-22080 repro {'status': 'ALIGNED', 's': 11.2, 'kind': 'repro', 't': 14.66}
+07:01:08 sympy__sympy-22080 creg {'files': ['sympy/solvers/tests/test_solveset.py', 'sympy/utilities/tests/test_lambdify.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.4, 'kind': 'creg', 't': 16.1}
+07:01:11 sympy__sympy-22080 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.1, 'kind': 'checks', 't': 19.24}
+07:01:14 sympy__sympy-22080 tool {'name': 'search_code', 'model_s': 2.36, 'tool_s': 0.0, 'obs_chars': 147, 'kind': 'tool', 't': 21.61}
+07:01:15 sympy__sympy-22080 tool {'name': 'search_code', 'model_s': 0.93, 'tool_s': 0.0, 'obs_chars': 243, 'kind': 'tool', 't': 22.55}
+07:01:16 sympy__sympy-22080 tool {'name': 'search_code', 'model_s': 0.89, 'tool_s': 0.04, 'obs_chars': 2500, 'kind': 'tool', 't': 23.47}
+07:01:17 sympy__sympy-22080 tool {'name': 'search_code', 'model_s': 1.54, 'tool_s': 0.03, 'obs_chars': 64, 'kind': 'tool', 't': 25.04}
+07:01:19 sympy__sympy-22080 tool {'name': 'read_file', 'model_s': 1.62, 'tool_s': 0.0, 'obs_chars': 3524, 'kind': 'tool', 't': 26.66}
+07:01:20 sympy__sympy-22080 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 28.18}
+07:01:22 sympy__sympy-22080 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 29.61}
+07:01:23 sympy__sympy-22080 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 30.47}
+07:01:24 sympy__sympy-22080 tool {'name': 'search_code', 'model_s': 0.97, 'tool_s': 0.03, 'obs_chars': 2500, 'kind': 'tool', 't': 31.47}
+07:01:25 sympy__sympy-22080 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 32.98}
+07:01:27 sympy__sympy-22080 tool {'name': 'read_file', 'model_s': 1.6, 'tool_s': 0.0, 'obs_chars': 1216, 'kind': 'tool', 't': 34.58}
+07:01:28 sympy__sympy-22080 tool {'name': 'search_code', 'model_s': 1.23, 'tool_s': 0.03, 'obs_chars': 54, 'kind': 'tool', 't': 35.85}
+07:01:29 sympy__sympy-22080 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 37.04}
+07:01:30 sympy__sympy-22080 tool {'name': 'search_code', 'model_s': 1.07, 'tool_s': 0.03, 'obs_chars': 2500, 'kind': 'tool', 't': 38.14}
+07:01:32 sympy__sympy-22080 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 39.52}
+07:01:32 sympy__sympy-24066 repro {'status': 'BROKEN', 's': 34.1, 'kind': 'repro', 't': 34.2}
+07:01:33 sympy__sympy-24066 creg {'files': ['sympy/physics/units/tests/test_quantities.py'], 'n_tests': 0, 'n_pass': 0, 's': 0.8, 'kind': 'creg', 't': 35.04}
+07:01:34 sympy__sympy-24066 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 0.8, 'kind': 'checks', 't': 35.83}
+07:01:34 DONE sympy__sympy-22080 patch_lines 0 err  wall 137
+07:01:36 sympy__sympy-24066 tool {'name': 'search_code', 'model_s': 2.49, 'tool_s': 0.0, 'obs_chars': 47, 'kind': 'tool', 't': 38.33}
+07:01:38 sympy__sympy-24066 tool {'name': 'read_file', 'model_s': 1.12, 'tool_s': 0.0, 'obs_chars': 891, 'kind': 'tool', 't': 39.45}
+07:01:39 sympy__sympy-24066 tool {'name': 'search_code', 'model_s': 1.17, 'tool_s': 0.0, 'obs_chars': 297, 'kind': 'tool', 't': 40.63}
+07:01:40 sympy__sympy-24066 tool {'name': 'search_code', 'model_s': 1.16, 'tool_s': 0.03, 'obs_chars': 66, 'kind': 'tool', 't': 41.82}
+07:01:41 sympy__sympy-24066 tool {'name': 'read_file', 'model_s': 1.22, 'tool_s': 0.0, 'obs_chars': 1858, 'kind': 'tool', 't': 43.04}
+07:01:42 sympy__sympy-24066 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 44.32}
+07:01:44 sympy__sympy-24066 tool {'name': 'read_file', 'model_s': 1.55, 'tool_s': 0.0, 'obs_chars': 1305, 'kind': 'tool', 't': 45.87}
+07:01:45 sympy__sympy-24066 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 47.08}
+07:01:47 sympy__sympy-24066 tool {'name': 'read_file', 'model_s': 1.42, 'tool_s': 0.0, 'obs_chars': 7657, 'kind': 'tool', 't': 48.5}
+07:01:48 sympy__sympy-24066 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 50.01}
+07:01:50 sympy__sympy-24066 tool {'name': 'read_file', 'model_s': 1.72, 'tool_s': 0.0, 'obs_chars': 352, 'kind': 'tool', 't': 51.73}
+07:01:51 sympy__sympy-24066 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 52.77}
+07:01:52 sympy__sympy-24066 tool {'name': 'read_file', 'model_s': 1.24, 'tool_s': 0.0, 'obs_chars': 423, 'kind': 'tool', 't': 54.01}
+07:01:53 sympy__sympy-24066 tool {'name': 'read_file', 'model_s': 1.26, 'tool_s': 0.0, 'obs_chars': 528, 'kind': 'tool', 't': 55.27}
+07:01:54 sympy__sympy-24066 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 56.4}
+07:01:57 DONE sympy__sympy-24066 patch_lines 0 err  wall 158
+07:01:57 finished 4394 s; remaining 0

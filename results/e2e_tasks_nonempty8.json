@@ -1,0 +1,60 @@
+{
+ "seed": 42,
+ "population": 460,
+ "allocation": {
+  "1": 15,
+  "2+": 13,
+  "0": 20,
+  "unanchored": 2
+ },
+ "tasks": [
+  {
+   "instance_id": "astropy__astropy-14182",
+   "repo": "astropy/astropy",
+   "hop": "0",
+   "difficulty": "15 min - 1 hour"
+  },
+  {
+   "instance_id": "django__django-14608",
+   "repo": "django/django",
+   "hop": "1",
+   "difficulty": "<15 min fix"
+  },
+  {
+   "instance_id": "django__django-14672",
+   "repo": "django/django",
+   "hop": "1",
+   "difficulty": "15 min - 1 hour"
+  },
+  {
+   "instance_id": "django__django-15161",
+   "repo": "django/django",
+   "hop": "1",
+   "difficulty": "15 min - 1 hour"
+  },
+  {
+   "instance_id": "pydata__xarray-4356",
+   "repo": "pydata/xarray",
+   "hop": "1",
+   "difficulty": "<15 min fix"
+  },
+  {
+   "instance_id": "scikit-learn__scikit-learn-15100",
+   "repo": "scikit-learn/scikit-learn",
+   "hop": "0",
+   "difficulty": "15 min - 1 hour"
+  },
+  {
+   "instance_id": "sphinx-doc__sphinx-10466",
+   "repo": "sphinx-doc/sphinx",
+   "hop": "1",
+   "difficulty": "15 min - 1 hour"
+  },
+  {
+   "instance_id": "sympy__sympy-18211",
+   "repo": "sympy/sympy",
+   "hop": "2+",
+   "difficulty": "15 min - 1 hour"
+  }
+ ]
+}

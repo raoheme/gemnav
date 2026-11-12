@@ -1,0 +1,25 @@
+2026-11-12T12:03:23 preflight: {"cpu":"AMD Ryzen 5 5500U with Radeon Graphics","cores":6,"threads":12,"ram_total_gb":6.82,"gpu":"AMD Radeon(TM) Graphics","c_free_gb":68.9,"os":"Microsoft Windows 11 Enterprise","docker":"","wslconfig":"[wsl2] | networkingMode=mirrored | dnsTunneling=true | autoProxy=true | memory=5GB | swap=8GB |  | [experimental] | hostAddressLoopback=true"}
+2026-11-12T12:03:31 preflight: {"cpu":"AMD Ryzen 5 5500U with Radeon Graphics","cores":6,"threads":12,"ram_total_gb":6.82,"gpu":"AMD Radeon(TM) Graphics","c_free_gb":68.9,"os":"Microsoft Windows 11 Enterprise","docker":"","wslconfig":"[wsl2] | networkingMode=mirrored | dnsTunneling=true | autoProxy=true | memory=5GB | swap=8GB |  | [experimental] | hostAddressLoopback=true"}
+2026-11-12T12:04:20 preflight: {"cpu":"AMD Ryzen 5 5500U with Radeon Graphics","cores":6,"threads":12,"ram_total_gb":6.82,"gpu":"AMD Radeon(TM) Graphics","c_free_gb":68.9,"os":"Microsoft Windows 11 Enterprise","docker":"29.9.3","wslconfig":"[wsl2] | networkingMode=mirrored | dnsTunneling=true | autoProxy=true | memory=5GB | swap=8GB |  | [experimental] | hostAddressLoopback=true"}
+2026-11-12T12:05:51 llama-server cpu up in 14.1 s (pid 26900)
+2026-11-12T12:06:15 gate cpu : {"prompt_n":1590,"prompt_tok_s":114.00,"gen_n":51,"gen_tok_s":5.40,"peak_ws_mib":1670,"threads":6,"turn_s":50.2}
+2026-11-12T12:06:19 downloading https://github.com/ggml-org/llama.cpp/releases/download/b12211/llama-b12211-bin-win-vulkan-x64.zip
+2026-11-12T12:06:20 gate vulkan failed: Download failed (https://github.com/ggml-org/llama.cpp/releases/download/b12211/llama-b12211-bin-win-vulkan-x64.zip). Download it in your browser and save it as C:\eurykosmotron-knowledge-continuum\swe_paper\local_runs\tools\llama-b12211-bin-win-vulkan-x64.zip, then re-run. The underlying connection was closed: An unexpected error occurred on a send.
+2026-11-12T12:06:22 backend: cpu
+2026-11-12T12:06:23 building gemnav-agent:1 (one time)
+2026-11-12T13:23:10 preflight: {"cpu":"AMD Ryzen 5 5500U with Radeon Graphics","cores":6,"threads":12,"ram_total_gb":6.82,"gpu":"AMD Radeon(TM) Graphics","c_free_gb":68.6,"os":"Microsoft Windows 11 Enterprise","docker":"29.9.3","wslconfig":"[wsl2] | networkingMode=mirrored | dnsTunneling=true | autoProxy=true | memory=5GB | swap=8GB |  | [experimental] | hostAddressLoopback=true"}
+2026-11-12T13:24:07 llama-server cpu up in 26.9 s (pid 27012)
+2026-11-12T13:24:59 gate cpu : {"prompt_n":1590,"prompt_tok_s":59.53,"gen_n":51,"gen_tok_s":2.52,"peak_ws_mib":1487,"threads":6,"turn_s":104.5}
+2026-11-12T13:25:03 downloading https://github.com/ggml-org/llama.cpp/releases/download/b12211/llama-b12211-bin-win-vulkan-x64.zip
+2026-11-12T13:25:05 gate vulkan failed: Download failed (https://github.com/ggml-org/llama.cpp/releases/download/b12211/llama-b12211-bin-win-vulkan-x64.zip). Download it in your browser and save it as C:\eurykosmotron-knowledge-continuum\swe_paper\local_runs\tools\llama-b12211-bin-win-vulkan-x64.zip, then re-run. The underlying connection was closed: An unexpected error occurred on a send.
+2026-11-12T13:25:07 backend: cpu
+2026-11-12T13:25:25 done. Results: results\laptop\  (summary_e2e.json, e2e_laptop_tasks.jsonl, predictions_*.jsonl, reports\, ram_samples.csv, speed_gate.json, bench_index.json)
+2026-11-12T13:29:31 preflight: {"cpu":"AMD Ryzen 5 5500U with Radeon Graphics","cores":6,"threads":12,"ram_total_gb":6.82,"gpu":"AMD Radeon(TM) Graphics","c_free_gb":68.5,"os":"Microsoft Windows 11 Enterprise","docker":"29.9.3","wslconfig":"[wsl2] | networkingMode=mirrored | dnsTunneling=true | autoProxy=true | memory=5GB | swap=8GB |  | [experimental] | hostAddressLoopback=true"}
+2026-11-12T13:30:23 llama-server cpu up in 25.4 s (pid 22436)
+2026-11-12T13:31:17 gate cpu : {"prompt_n":1590,"prompt_tok_s":58.60,"gen_n":51,"gen_tok_s":2.19,"peak_ws_mib":1487,"threads":6,"turn_s":117.1}
+2026-11-12T13:32:19 gate vulkan failed: This command cannot be run due to the error: Access is denied.
+2026-11-12T13:32:21 backend: cpu
+2026-11-12T13:32:39 done. Results: results\laptop\  (summary_e2e.json, e2e_laptop_tasks.jsonl, predictions_*.jsonl, reports\, ram_samples.csv, speed_gate.json, bench_index.json)
+2026-11-12T14:09:26 preflight: {"cpu":"AMD Ryzen 5 5500U with Radeon Graphics","cores":6,"threads":12,"ram_total_gb":6.82,"gpu":"AMD Radeon(TM) Graphics","c_free_gb":68.3,"os":"Microsoft Windows 11 Enterprise","docker":"29.9.3","wslconfig":"[wsl2] | networkingMode=mirrored | dnsTunneling=true | autoProxy=true | memory=5GB | swap=8GB |  | [experimental] | hostAddressLoopback=true"}
+2026-11-12T14:09:39 backend: cpu
+2026-11-12T15:11:39 done. Results: results\laptop\  (summary_e2e.json, e2e_laptop_tasks.jsonl, predictions_*.jsonl, reports\, ram_samples.csv, speed_gate.json, bench_index.json)

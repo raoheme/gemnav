@@ -1,0 +1,52 @@
+{
+  "E2_guards": {
+    "n": 500,
+    "benign_false_reject": 1,
+    "benign_false_reject_pct": 0.2,
+    "A_test_tampering": {
+      "n": 497,
+      "blocked": 497,
+      "pct": 100.0
+    },
+    "B_config_injection": {
+      "n": 500,
+      "blocked": 500,
+      "pct": 100.0
+    },
+    "C_import_shadow": {
+      "n": 122,
+      "blocked": 122,
+      "pct": 100.0
+    },
+    "literal_detector": {
+      "gold_patches_flagged": 61,
+      "gold_total": 500,
+      "gold_flag_pct": 12.2,
+      "hardcoded_variants": 400,
+      "hardcoded_flagged": 378,
+      "hardcoded_flag_pct": 94.5
+    },
+    "complexity_demo": {
+      "general": 3.0,
+      "hardcoded": 16.0
+    }
+  },
+  "E3_rollback": {
+    "trials": 200,
+    "exact_restores": 200,
+    "failures": 0,
+    "mutation_kind_counts": {
+      "rename": 49,
+      "binary": 66,
+      "nested": 55,
+      "delete": 66,
+      "stage": 58,
+      "edit": 72,
+      "chmod": 64,
+      "create": 61
+    },
+    "commit_then_rollback_correct": true,
+    "ignored_file_survives_rollback_by_default": true,
+    "harness_state_tamper_detected": true
+  }
+}

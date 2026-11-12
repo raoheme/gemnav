@@ -1,0 +1,8 @@
+03:09:52 parquet sha256 a45b1fe4e2f0c8390b2b2938ac83e92ed5979000856808f3679c07812e9e6dcd
+03:11:04 mirrors ready 79 s
+03:11:04 env {'gpu': 'Tesla T4, 15360 MiB\nTesla T4, 15360 MiB', 'python': '3.13.16', 'cpus': 4}
+03:50:51 minilm rc 0 wall_s 2387 lines 500
+04:04:22 graphcodebert rc 0 wall_s 3198 lines 500
+04:04:37 jina-code rc 1 wall_s 14 lines 0
+04:41:25 codebert rc 0 wall_s 3034 lines 500
+04:41:25 done 5501 s

@@ -1,0 +1,68 @@
+05:34:33 assets ok 93 s
+05:34:34 list-devices Available devices:
+  CUDA0: Tesla T4 (14911 MiB, 14806 MiB free)
+  CUDA1: Tesla T4 (14911 MiB, 14806 MiB free)
+05:36:03 servers up {0: 86.09880661964417, 1: 3.004927396774292}
+05:36:37 speed gate {0: {'prompt_n': 300, 'prompt_tok_s': 10.333048623400263, 'gen_tok_s': 49.7672390633189}, 1: {'prompt_n': 300, 'prompt_tok_s': 997.1382133277494, 'gen_tok_s': 52.41308935735987}}
+05:39:16 django__django-10999 repro {'status': 'ALIGNED', 's': 16.8, 'kind': 'repro', 't': 18.12}
+05:39:19 django__django-11099 repro {'status': 'ALIGNED', 's': 18.1, 'kind': 'repro', 't': 18.13}
+05:39:21 django__django-10999 creg {'files': ['tests/utils_tests/test_duration.py', 'tests/utils_tests/test_dateparse.py'], 'n_tests': 29, 'n_pass': 29, 's': 4.4, 'kind': 'creg', 't': 22.62}
+05:39:25 django__django-11099 creg {'files': ['tests/auth_tests/test_validators.py', 'tests/validation/test_validators.py'], 'n_tests': 25, 'n_pass': 25, 's': 5.6, 'kind': 'creg', 't': 23.78}
+05:39:26 django__django-10999 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 5.0, 'kind': 'checks', 't': 27.6}
+05:39:28 django__django-10999 tool {'name': 'search_code', 'model_s': 2.59, 'tool_s': 0.06, 'obs_chars': 87, 'kind': 'tool', 't': 30.26}
+05:39:30 django__django-11099 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 4.9, 'kind': 'checks', 't': 28.65}
+05:39:32 django__django-11099 tool {'name': 'search_code', 'model_s': 2.39, 'tool_s': 0.09, 'obs_chars': 92, 'kind': 'tool', 't': 31.12}
+05:39:33 django__django-11099 tool {'name': 'read_file', 'model_s': 0.99, 'tool_s': 0.0, 'obs_chars': 822, 'kind': 'tool', 't': 32.11}
+05:39:35 django__django-11099 edit_nomatch {'path': 'django/contrib/auth/validators.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 33.73}
+05:39:35 django__django-11099 tool {'name': 'replace_in_file', 'model_s': 1.61, 'tool_s': 0.0, 'obs_chars': 618, 'kind': 'tool', 't': 33.73}
+05:39:37 django__django-11099 edit_nomatch {'path': 'django/contrib/auth/validators.py', 'found': 0, 'how': 'matched 0 times ignoring whitespace', 'kind': 'edit_nomatch', 't': 35.35}
+05:39:37 django__django-11099 tool {'name': 'replace_in_file', 'model_s': 1.62, 'tool_s': 0.0, 'obs_chars': 618, 'kind': 'tool', 't': 35.35}
+05:39:38 django__django-11099 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 36.94}
+05:39:40 django__django-11099 duplicate {'name': 'replace_in_file', 'kind': 'duplicate', 't': 38.46}
+05:39:41 django__django-11099 tool {'name': 'search_code', 'model_s': 0.96, 'tool_s': 0.07, 'obs_chars': 93, 'kind': 'tool', 't': 39.49}
+05:39:42 django__django-11099 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 40.45}
+05:39:43 django__django-11099 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 41.42}
+05:39:45 DONE django__django-11099 patch_lines 0 err  wall 150
+05:39:59 django__django-10999 tool {'name': 'search_code', 'model_s': 30.99, 'tool_s': 0.01, 'obs_chars': 1261, 'kind': 'tool', 't': 61.26}
+05:40:01 django__django-10999 tool {'name': 'read_file', 'model_s': 1.98, 'tool_s': 0.0, 'obs_chars': 135, 'kind': 'tool', 't': 63.24}
+05:40:03 django__django-10999 tool {'name': 'read_file', 'model_s': 2.03, 'tool_s': 0.0, 'obs_chars': 457, 'kind': 'tool', 't': 65.28}
+05:40:44 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 1275 (char 1274)', 'truncated': True, 'kind': 'protocol_error', 't': 105.52}
+05:41:11 sympy__sympy-12419 repro {'status': 'ALIGNED', 's': 11.5, 'kind': 'repro', 't': 11.59}
+05:41:12 sympy__sympy-12419 creg {'files': ['sympy/matrices/expressions/tests/test_matmul.py', 'sympy/matrices/expressions/tests/test_determinant.py'], 'n_tests': 0, 'n_pass': 0, 's': 1.4, 'kind': 'creg', 't': 12.99}
+05:41:15 sympy__sympy-12419 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.3, 'kind': 'checks', 't': 16.33}
+05:41:21 sympy__sympy-12419 checks {'repro': 'TARGET_FAILURE', 'regression_clean': True, 'broken': 0, 's': 3.4, 'kind': 'checks', 't': 21.51}
+05:41:21 sympy__sympy-12419 tool {'name': 'run_tests', 'model_s': 1.83, 'tool_s': 3.36, 'obs_chars': 561, 'kind': 'tool', 't': 21.51}
+05:41:22 sympy__sympy-12419 tool {'name': 'search_code', 'model_s': 1.68, 'tool_s': 0.03, 'obs_chars': 108, 'kind': 'tool', 't': 23.23}
+05:41:24 sympy__sympy-12419 tool {'name': 'search_code', 'model_s': 1.24, 'tool_s': 0.03, 'obs_chars': 83, 'kind': 'tool', 't': 24.49}
+05:41:24 sympy__sympy-12419 tool {'name': 'semantic_search', 'model_s': 0.84, 'tool_s': 0.08, 'obs_chars': 1643, 'kind': 'tool', 't': 25.41}
+05:41:26 sympy__sympy-12419 tool {'name': 'read_file', 'model_s': 1.42, 'tool_s': 0.0, 'obs_chars': 6483, 'kind': 'tool', 't': 26.83}
+05:41:28 sympy__sympy-12419 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 28.85}
+05:41:29 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 1275 (char 1274)', 'truncated': True, 'kind': 'protocol_error', 't': 151.11}
+05:41:29 sympy__sympy-12419 tool {'name': 'semantic_search', 'model_s': 1.39, 'tool_s': 0.04, 'obs_chars': 432, 'kind': 'tool', 't': 30.28}
+05:41:31 sympy__sympy-12419 duplicate {'name': 'search_code', 'kind': 'duplicate', 't': 31.64}
+05:41:32 sympy__sympy-12419 duplicate {'name': 'semantic_search', 'kind': 'duplicate', 't': 32.51}
+05:41:33 sympy__sympy-12419 tool {'name': 'read_file', 'model_s': 1.05, 'tool_s': 0.0, 'obs_chars': 6483, 'kind': 'tool', 't': 33.56}
+05:41:34 sympy__sympy-12419 duplicate {'name': 'semantic_search', 'kind': 'duplicate', 't': 34.91}
+05:41:36 DONE sympy__sympy-12419 patch_lines 0 err  wall 111
+05:41:44 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 212 (char 211)', 'truncated': False, 'kind': 'protocol_error', 't': 165.54}
+05:41:47 DONE django__django-10999 patch_lines 0 err  wall 271
+05:43:07 sphinx-doc__sphinx-10466 repro {'status': 'BROKEN', 's': 26.5, 'kind': 'repro', 't': 26.59}
+05:43:10 sphinx-doc__sphinx-10466 creg {'files': ['tests/test_quickstart.py'], 'n_tests': 10, 'n_pass': 10, 's': 2.9, 'kind': 'creg', 't': 29.51}
+05:43:12 sphinx-doc__sphinx-10466 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 2.4, 'kind': 'checks', 't': 31.95}
+05:43:14 sphinx-doc__sphinx-10466 tool {'name': 'semantic_search', 'model_s': 2.18, 'tool_s': 0.01, 'obs_chars': 1123, 'kind': 'tool', 't': 34.13}
+05:43:15 sphinx-doc__sphinx-10466 tool {'name': 'search_code', 'model_s': 0.97, 'tool_s': 0.02, 'obs_chars': 64, 'kind': 'tool', 't': 35.12}
+05:43:16 sphinx-doc__sphinx-10466 tool {'name': 'read_file', 'model_s': 1.01, 'tool_s': 0.0, 'obs_chars': 1484, 'kind': 'tool', 't': 36.14}
+05:43:18 sphinx-doc__sphinx-10466 tool {'name': 'read_file', 'model_s': 1.25, 'tool_s': 0.0, 'obs_chars': 303, 'kind': 'tool', 't': 37.39}
+05:43:23 sphinx-doc__sphinx-10466 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 2.5, 'kind': 'checks', 't': 43.29}
+05:43:24 sphinx-doc__sphinx-10466 edit_commit {'path': 'sphinx/builders/gettext.py', 'score': [1, 0, 0], 'kind': 'edit_commit', 't': 43.36}
+05:43:24 sphinx-doc__sphinx-10466 tool {'name': 'replace_in_file', 'model_s': 2.6, 'tool_s': 3.37, 'obs_chars': 79, 'kind': 'tool', 't': 43.36}
+05:43:24 sphinx-doc__sphinx-10466 tool {'name': 'semantic_search', 'model_s': 0.91, 'tool_s': 0.01, 'obs_chars': 1899, 'kind': 'tool', 't': 44.27}
+05:43:26 sphinx-doc__sphinx-10466 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 45.58}
+05:43:27 sphinx-doc__sphinx-10466 duplicate {'name': 'read_file', 'kind': 'duplicate', 't': 46.83}
+05:43:28 sphinx-doc__sphinx-10466 tool {'name': 'get_definition', 'model_s': 0.51, 'tool_s': 0.0, 'obs_chars': 1343, 'kind': 'tool', 't': 47.34}
+05:43:35 sphinx-doc__sphinx-10466 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 2.5, 'kind': 'checks', 't': 54.89}
+05:43:35 sphinx-doc__sphinx-10466 edit_commit {'path': 'sphinx/builders/gettext.py', 'score': [1, 0, 0], 'kind': 'edit_commit', 't': 54.92}
+05:43:35 sphinx-doc__sphinx-10466 tool {'name': 'replace_in_file', 'model_s': 4.3, 'tool_s': 3.28, 'obs_chars': 79, 'kind': 'tool', 't': 54.92}
+05:43:36 sphinx-doc__sphinx-10466 submit {'step': 11, 'kind': 'submit', 't': 55.65}
+05:43:38 DONE sphinx-doc__sphinx-10466 patch_lines 18 err  wall 122
+05:43:38 finished 638 s; remaining 0

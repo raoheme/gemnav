@@ -1,0 +1,10 @@
+{
+ "graphcodebert": {
+  "embedded": 145348,
+  "embed_seconds": 1056.4377074059998,
+  "cache_hits": 2936245,
+  "device": "cuda:0",
+  "backend": "torch",
+  "chunks_per_s": 137.58312390883003
+ }
+}

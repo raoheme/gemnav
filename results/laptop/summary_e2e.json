@@ -1,0 +1,68 @@
+{
+ "n_tasks": 0,
+ "errors": 0,
+ "gold_resolved": 0,
+ "resolve": {},
+ "latency_e2b": {
+  "llm_calls": 0,
+  "call_wall_s_p50": null,
+  "call_wall_s_p95": null,
+  "prompt_tok_s_p50": null,
+  "gen_tok_s_p50": null,
+  "new_prompt_tokens_p50": null,
+  "cached_tokens_p50": null,
+  "task_agent_wall_s_p50": null,
+  "task_agent_wall_s_p95": null,
+  "steps_mean": null
+ },
+ "agent": {
+  "edits_committed": 0,
+  "edits_rolled_back": 0,
+  "guard_rejects": 0,
+  "duplicates": 0,
+  "protocol_errors": 0
+ },
+ "repro_status": {
+  "ALIGNED": 0,
+  "PASSES_ON_BUGGY": 0,
+  "BROKEN": 0,
+  "NO_SCRIPT": 0
+ },
+ "index_s_p50": null,
+ "embed_cache_hit_rate": 0.0,
+ "memory_mib": {
+  "sys_used_max": 6981.0,
+  "sys_total": 6986.0,
+  "llama_peak_ws_max": 1670.0,
+  "llama_ws_max": 1669.0,
+  "docker_vm_ws_max": 3110.0,
+  "containers_max": 1949.0,
+  "samples": 1176
+ },
+ "speed_gate": {
+  "cpu": {
+   "prompt_n": 1590,
+   "prompt_tok_s": 58.6,
+   "gen_n": 51,
+   "gen_tok_s": 2.19,
+   "peak_ws_mib": 1487,
+   "threads": 6,
+   "turn_s": 117.1
+  },
+  "vulkan": {
+   "error": "This command cannot be run due to the error: Access is denied."
+  },
+  "chosen": "cpu"
+ },
+ "hardware": {
+  "cpu": "AMD Ryzen 5 5500U with Radeon Graphics",
+  "cores": 6,
+  "threads": 12,
+  "ram_total_gb": 6.82,
+  "gpu": "AMD Radeon(TM) Graphics",
+  "c_free_gb": 68.3,
+  "os": "Microsoft Windows 11 Enterprise",
+  "docker": "29.9.3",
+  "wslconfig": "[wsl2] | networkingMode=mirrored | dnsTunneling=true | autoProxy=true | memory=5GB | swap=8GB |  | [experimental] | hostAddressLoopback=true"
+ }
+}

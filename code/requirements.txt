@@ -1,0 +1,5 @@
+numpy>=1.24
+pyarrow>=14
+matplotlib>=3.7
+pytest>=7
+# runtime tools (system packages): git, ripgrep (optional; python fallback exists), llama.cpp (for model runs)

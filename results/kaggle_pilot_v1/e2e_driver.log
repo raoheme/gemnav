@@ -1,0 +1,19 @@
+04:36:56 assets ok 116 s
+04:37:06 servers up {0: 5.0088725090026855, 1: 5.007915496826172}
+04:38:24 speed gate {0: {'prompt_n': 300, 'prompt_tok_s': 22.75917350213155, 'gen_tok_s': 4.378321033996694}, 1: {'prompt_n': 300, 'prompt_tok_s': 23.09003821863126, 'gen_tok_s': 4.377473490427299}}
+04:38:31 DONE sympy__sympy-12419 patch_lines None err FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/tmp/blobs/sha25 wall 1
+04:47:27 django__django-10999 repro {'status': 'NO_SCRIPT', 's': 305.9, 'kind': 'repro', 't': 305.93}
+04:47:31 django__django-10999 creg {'files': ['tests/utils_tests/test_duration.py', 'tests/utils_tests/test_dateparse.py'], 'n_tests': 29, 'n_pass': 29, 's': 3.9, 'kind': 'creg', 't': 309.94}
+04:47:34 django__django-10999 checks {'repro': 'NO_REPRO', 'regression_clean': True, 'broken': 0, 's': 3.2, 'kind': 'checks', 't': 313.17}
+04:51:30 django__django-10999 tool {'name': 'search_code', 'model_s': 235.92, 'tool_s': 0.12, 'obs_chars': 87, 'kind': 'tool', 't': 549.22}
+04:55:03 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 45 (char 44)', 'kind': 'protocol_error', 't': 762.17}
+04:55:28 django__django-10999 tool {'name': 'read_file', 'model_s': 24.8, 'tool_s': 0.0, 'obs_chars': 2114, 'kind': 'tool', 't': 786.97}
+05:00:35 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 82 (char 81)', 'kind': 'protocol_error', 't': 1094.54}
+05:05:46 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 82 (char 81)', 'kind': 'protocol_error', 't': 1404.97}
+05:06:22 django__django-10999 tool {'name': 'search_code', 'model_s': 36.9, 'tool_s': 0.01, 'obs_chars': 10, 'kind': 'tool', 't': 1441.88}
+05:06:51 django__django-10999 tool {'name': 'read_file', 'model_s': 28.14, 'tool_s': 0.0, 'obs_chars': 135, 'kind': 'tool', 't': 1470.02}
+05:10:38 django__django-10999 protocol_error {'err': 'invalid JSON: Unterminated string starting at: line 1 column 82 (char 81)', 'kind': 'protocol_error', 't': 1697.68}
+05:12:11 django__django-10999 tool {'name': 'replace_in_file', 'model_s': 93.12, 'tool_s': 0.0, 'obs_chars': 89, 'kind': 'tool', 't': 1790.8}
+05:12:57 django__django-10999 tool {'name': 'read_file', 'model_s': 46.12, 'tool_s': 0.0, 'obs_chars': 299, 'kind': 'tool', 't': 1836.92}
+05:13:00 DONE django__django-10999 patch_lines 0 err  wall 2071
+05:13:00 finished 2280 s; remaining 0

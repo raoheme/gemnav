@@ -1,0 +1,30 @@
+{
+ "env": {
+  "gpu": "Tesla T4, 15360 MiB\nTesla T4, 15360 MiB",
+  "python": "3.13.16",
+  "cpus": 4
+ },
+ "results": {
+  "1": [
+   [
+    "graphcodebert",
+    0
+   ],
+   [
+    "jina-code",
+    1
+   ]
+  ],
+  "0": [
+   [
+    "minilm",
+    0
+   ],
+   [
+    "codebert",
+    0
+   ]
+  ]
+ },
+ "wall_s": 5500.522228717804
+}

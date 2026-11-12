@@ -1,0 +1,15 @@
+llama.cpp b12211 Vulkan build, Windows 11, AMD Ryzen 5 5500U (Radeon Vega 7 iGPU, UMA), 6.82 GB usable RAM
+Model: gemma-4-E2B_q4_0-it.gguf (Google QAT q4_0, 3.2 GB). Run manually by the author on 2026-11-12.
+
+> llama-bench.exe -m gemma-4-E2B_q4_0-it.gguf -p 1500 -n 128 -t 6 -ngl 99
+ggml_vulkan: 0 = AMD Radeon(TM) Graphics (AMD proprietary driver) | uma: 1 | rebar: 0 | fp16: 1 | bf16: 0 | int dot: 0 | matrix cores: none
+ggml_vulkan: Device memory allocation of size 573599744 failed.  vk::Device::allocateMemory: ErrorOutOfDeviceMemory
+llama_bench: error: failed to create context
+
+> llama-bench.exe -m gemma-4-E2B_q4_0-it.gguf -p 1500 -n 128 -t 6 -ngl 0
+ggml_vulkan: Device memory allocation of size 870318080 failed.  vk::Device::allocateMemory: ErrorOutOfDeviceMemory
+llama_bench: error: failed to create context
+
+Result: the Vulkan backend cannot create a context on this iGPU (compute buffers of 547-830 MiB exceed the device memory
+heap exposed to Vulkan). CPU backend is the only working option on this laptop.
+Earlier "Access is denied" from the scripted gate was the downloaded-file block, removed with Unblock-File.

@@ -1,0 +1,11 @@
+﻿{
+    "cpu":  "AMD Ryzen 5 5500U with Radeon Graphics",
+    "cores":  6,
+    "threads":  12,
+    "ram_total_gb":  6.82,
+    "gpu":  "AMD Radeon(TM) Graphics",
+    "c_free_gb":  68.3,
+    "os":  "Microsoft Windows 11 Enterprise",
+    "docker":  "29.9.3",
+    "wslconfig":  "[wsl2] | networkingMode=mirrored | dnsTunneling=true | autoProxy=true | memory=5GB | swap=8GB |  | [experimental] | hostAddressLoopback=true"
+}

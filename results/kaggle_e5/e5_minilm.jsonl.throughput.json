@@ -1,0 +1,10 @@
+{
+ "minilm": {
+  "embedded": 145348,
+  "embed_seconds": 236.5593770650022,
+  "cache_hits": 2936245,
+  "device": "cuda:0",
+  "backend": "torch",
+  "chunks_per_s": 614.4250200661503
+ }
+}

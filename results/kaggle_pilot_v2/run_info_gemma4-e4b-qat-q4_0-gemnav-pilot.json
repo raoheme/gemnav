@@ -1,0 +1,64 @@
+{
+ "tag": "gemma4-e4b-qat-q4_0-gemnav-pilot",
+ "model": [
+  "google/gemma-4-E4B-it-qat-q4_0-gguf",
+  "gemma-4-E4B_q4_0-it.gguf",
+  "4b4a2c1d584be7264f87aac328a1bc739ce81b6c",
+  "676c35070db6dbe52f93e9c864ee0fba4eddea94b9c875d9cb10daff453fbaee"
+ ],
+ "server_flags": [
+  "-ngl",
+  "999",
+  "-c",
+  "8192",
+  "--parallel",
+  "1",
+  "-fa",
+  "on",
+  "--jinja",
+  "--seed",
+  "42",
+  "--cache-type-k",
+  "q4_0",
+  "--cache-type-v",
+  "q4_0",
+  "--swa-full",
+  "--host",
+  "127.0.0.1"
+ ],
+ "llama_tag": "b12211",
+ "embedder": "minilm",
+ "load_s": {
+  "0": 91.10245943069458,
+  "1": 3.004775047302246
+ },
+ "speed_gate": {
+  "0": {
+   "prompt_n": 300,
+   "prompt_tok_s": 9.822469022306468,
+   "gen_tok_s": 49.258786045552604
+  },
+  "1": {
+   "prompt_n": 300,
+   "prompt_tok_s": 980.2672208444021,
+   "gen_tok_s": 52.46738316372748
+  }
+ },
+ "monitor": {
+  "gpu_mem_mib_max": [
+   3677,
+   3151
+  ],
+  "server_rss_mib_max": [
+   3712,
+   3460
+  ],
+  "sys_ram_used_mib_max": 4604,
+  "samples": 175
+ },
+ "remaining": [],
+ "gpu": "Tesla T4, 15360 MiB\nTesla T4, 15360 MiB\n",
+ "cpus": 4,
+ "ram_total_mib": 32098,
+ "wall_s": 525.1104984283447
+}
